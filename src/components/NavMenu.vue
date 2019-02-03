@@ -1,74 +1,63 @@
 <template>
-  <div id="navbar">
-      <nav class="navbar is-transparent is-fixed-top">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-              <img src="../assets/images/blueform-logo.png" alt="" width="200" height="108">
-            </a>
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
+    <nav id="nav" class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/images/blueform-logo.png" style="width: 200px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="border: 1px solid grey;"></span>
+        </button>
 
-          <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="navbar-start">
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link link" href="">Why Blueform</a>
-                <div class="navbar-dropdown is-boxed">
-                  <a class="navbar-item link" href="">Overview</a>
-                  <hr class="navbar-divider">
-                  <a class="navbar-item link" href="">
-                    Elements
-                  </a>
-                  <a class="navbar-item link is-active" href="">Components</a>
-                </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Why Bluform
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
-              <a class="navbar-item link" href="#">Pricing</a>
-              <div class="navbar-item link has-dropdown is-hoverable">
-                <a class="navbar-link link" href="">Learn</a>
-                <div class="navbar-dropdown is-boxed">
-                  <a class="navbar-item link" href="">
-                    Overview
-                  </a>
-                  <hr class="navbar-divider">
-                  <a class="navbar-item link" href="">
-                    Elements
-                  </a>
-                  <a class="navbar-item link is-active" href="">Components</a>
-                </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Learn
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </div>
-
-            <div class="navbar-end">
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link link" href="">Support</a>
-                <div class="navbar-dropdown is-boxed">
-                  <a class="navbar-item" href="">Overview</a>
-                  <hr class="navbar-divider">
-                  <a class="navbar-item" href="">
-                    Elements
-                  </a>
-                  <a class="navbar-item is-active" href="">
-                    Components
-                  </a>
-                </div>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown pull-right">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Support
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <router-link to="/about"><a class="dropdown-item">Another action</a></router-link>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
               </div>
-              <a class="navbar-item link" href="#">Learn</a>
-              <div class="navbar-item">
-                <div class="field is-grouped">
-                  <p class="control">
-                    <a class="button is-primary learn-more" href="">Create free account</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+            </li>
+            <li class="nav-item">
+              <router-link to="/login"><a class="nav-link">Login</a></router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/login"><a class="button is-primary learn-more" href="">Create free account</a></router-link>
+            </li>
+          </ul>
         </div>
-      </nav>
-  </div>
+      </div>
+    </nav>
 </template>
 
 <script>
@@ -78,8 +67,10 @@ export default {
 </script>
 
 <style scoped>
-nav {
-  padding: 15px;
+#nav {
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 30px;
   color: #223D68;
   /**font-family: Montserrat**/;
   font-style: normal;
@@ -87,17 +78,21 @@ nav {
   line-height: normal;
   font-size: 20px;
   letter-spacing: -0.01em;
+}
+
+#nav a {
   color: #223D68;
 }
 
-#navbar .link {
-  color: #223D68;
+#nav ul li {
+  margin-right: 40px;
 }
 
-#navbar .learn-more {
+#nav .learn-more {
   background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
   font-size: 20px;
   padding: 30px;
   border-radius: 27px;
+  color: white;
 }
 </style>

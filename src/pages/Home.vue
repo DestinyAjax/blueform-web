@@ -1,44 +1,46 @@
 <template>
     <div id="home-page">
-      <nav-menu></nav-menu>
-      <section class="hero is-medium is-bold" id="first-section">
-        <div class="illustration-body">
-          <div class="container">
-            <div class="columns is-mobile">
-              <div class="column">
+      <nav-menu></nav-menu><hr/>
+      <section id="first-section">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 col-xs-12 col-sm-12">
                 <div class="top-content">
-                  <h1>Modern online and <br/>offline data collection for <br/>Africa</h1>
+                  <h1>Modern online and offline data collection for Africa</h1>
                   <p class="subtitle">
                     Blueform helps individuals and organizations in Africa collect data from any part of Africa in real time. 
                   </p>
                   <p><a class="button is-primary learn-more" href="">Create free account</a></p>
                 </div>
+                <p style="color: #223D68;">Trusted by the best</p>
+                <div class="row">
+                  <div class="col-md-3 col-xs-3 col-sm-3 tic">
+                    <img src="../assets/images/tic-logo.png" />
+                    </div>
+                  <div class="col-md-3 col-xs-3 col-sm-3 boldX">
+                    <img src="../assets/images/tic-logo.png" />
+                  </div>
+                  <div class="col-md-3 col-xs-3 col-sm-3 identity">
+                    <img src="../assets/images/identity-logo.png" />
+                  </div>
+                  <div class="col-md-3 col-xs-3 col-sm-3"></div>
+                </div>
               </div>
-              <div class="column illustration">
-                <!-- <img src="../assets/images/illustration.png" /> -->
+              <div class="col-md-6 col-xs-12 col-sm-12 illustration">
+                <div style="padding: 180px;"></div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="container trusted-section">
-          <p style="color: #223D68;">Trusted by the best</p>
-          <div class="columns is-mobile">
-            <div class="column tic"><img src="../assets/images/tic-logo.png" /></div>
-            <div class="column boldX"><img src="../assets/images/tic-logo.png" /></div>
-            <div class="column identity"><img src="../assets/images/identity-logo.png" /></div>
-            <div class="column"></div>
-            <div class="column"></div>
-            <div class="column"></div>
-          </div>
-        </div>
-      </section>
+      </section><hr/>
       
       <section class="section-3">
-        <div class="container">
-          <h1>Simple, easy data <br/>collection</h1><br/>
-          <div class="columns is-mobile">
-            <div class="column background"></div>
-            <div class="column right-content">
+        <div class="container-fluid">
+          <h1 class="first">Simple, easy data collection</h1><br/>
+          <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12 background">
+              <div style="padding: 150px;"></div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12 right-content">
               <h1>Provide users with a seamless data collection experience</h1>
               <p>Empower your team with a  modern, effortless, painless <br/>data collection tool. Design custom forms for data <br/>collection using any of our channels. </p><br/>
               <ul>
@@ -51,12 +53,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section><hr/>
 
       <section class="section-4">
-        <div class="container">
-          <div class="columns is-mobile">
-            <div class="column left-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12 left-content">
               <h1>Manage data collection <br/>with ease.</h1>
               <p>Project managers love managing data collection project or monitoring and evaluation exercise using Blueform from simple data collection exercises to complex projects, they can receive and track forms sent to team members or field agents from anywhere.</p><br/>
               <ul>
@@ -65,72 +67,84 @@
                 <li>Collect direct beneficiary feedback using the USSD and Web channel.</li>
               </ul><br/>
             </div>
-            <div class="column background"></div>
+            <div class="col-md-6 col-xs-12 col-sm-12 background">
+              <div style="padding: 150px;"></div>
+            </div>
           </div>
         </div>
-      </section>
+      </section><hr/>
 
       <section class="section-5">
-        <div class="container">
-          <div class="columns is-mobile">
-            <div class="column background"></div>
-            <div class="column left-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12 background">
+              <div style="padding: 150px;"></div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-12 left-content">
               <h1>Protect yourself and your <br/>users with advanced <br/>security features </h1>
               <p>Blueform combination of automated and manual security <br/>systems protect you from data theft and loss.</p><br/>
             </div>
           </div>
         </div>
-      </section>
+      </section><hr/>
 
       <section class="section-6">
-        <div class="container">
-          <div class="columns is-mobile">
-            <div class="column left-content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12 left-content">
               <h1>Detailed reporting for <br/>your survey, monitoring <br/>and evaluation, accounting, <br/>and audits</h1>
               <p>Blueform combination of automated and manual security <br/>systems protect you from data theft and loss.</p><br/>
             </div>
-            <div class="column background"></div>
+            <div class="col-md-6 col-xs-12 col-sm-12 background">
+              <div style="padding: 150px;"></div>
+            </div>
           </div>
         </div>
-      </section>
+      </section><hr/>
 
       <section class="section-7">
-        <div class="container">
+        <div class="container-fluid">
           <h1>You are covered</h1>
-          <p>Join other organizations who trust Blueform to make work <br/>easy for them and save cost.</p><br/>
-          <div class="columns is-mobile" style="margin-top: 80px;">
-            <div class="column card">
-              <img src="../assets/images/icon-01.png" />
-              <h2>Blueform for <br/>individuals</h2>
-              <p>We help individuals conduct surveys and conduct data collection exercise anywhere in Africa with or without the internet.</p>
+          <p>Join other organizations who trust Blueform to make work <br/>easy for them and save cost.</p>
+          <div class="row" style="margin-top: 80px;">
+            <div class="col-md-4 col-xs-12 col-sm-12 card">
+              <div class="col-md-12">
+                <img src="../assets/images/icon-01.png" />
+                <h2>Blueform for individuals</h2>
+                <p>We help individuals conduct surveys and conduct data collection exercise anywhere in Africa with or without the internet.</p>
+              </div>
             </div>
-            <div class="column card middle-card">
-              <img src="../assets/images/icon-02.png" />
-              <h2>Blueform for <br/>Non-profits</h2>
-              <p>We make data collection, monitoring and evaluation easy and less expensive for non-profits</p>
+            <div class="col-md-4 col-xs-12 col-sm-12 card">
+              <div class="col-md-12">
+                <img src="../assets/images/icon-02.png" />
+                <h2>Blueform for Non-profits</h2>
+                <p>We make data collection, monitoring and evaluation easy and less expensive for non-profits</p>
+              </div>
             </div>
-            <div class="column card">
-              <img src="../assets/images/icon-03.png" />
-              <h2>Blueform for <br/>Businesses</h2>
-              <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p>
+            <div class="col-md-4 col-xs-12 col-sm-12 card">
+              <div class="col-md-12">
+                <img src="../assets/images/icon-03.png" />
+                <h2>Blueform for Businesses</h2>
+                <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </section><hr/>
 
       <section class="section-8">
-        <div class="container">
+        <div class="container-fluid">
           <p>Try Blueform Now</p><br/>
-          <div class="columns is-mobile">
-            <div class="column">
+          <div class="row">
+            <div class="col-md-6 col-xs-12 col-sm-12">
               <h1>Do more with <br>less</h1>
             </div>
-            <div class="column right">
+            <div class="col-md-6 col-xs-12 col-sm-12 right">
               <p><a class="button is-primary learn-more" href="">Create free account</a></p>
             </div>
           </div>
         </div>
-      </section>
+      </section><hr/>
 
       <footer-section></footer-section>
     </div>
@@ -151,18 +165,18 @@ export default {
 
 <style scoped>
 section {
-  margin-bottom: 130px;
+  margin-bottom: 60px;
+  padding: 80px;
 }
 
 #home-page #first-section {
   background-color: white;
   text-align: left;
-  margin-top: 120px;
 }
 
 #home-page #first-section .top-content {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 60px;
+  margin-bottom: 120px;
 }
 
 #home-page #first-section h1 {
@@ -189,6 +203,7 @@ section {
   background: url(../assets/images/illustration.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #home-page #first-section .learn-more {
@@ -215,6 +230,16 @@ section {
 }
 
 #home-page .section-3 h1 {
+  /**font-family: Montserrat;**/
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53px;
+  font-size: 48px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+#home-page .section-3 .first {
   /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
@@ -268,6 +293,7 @@ section {
   background: url(../assets/images/african-phone.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #home-page .section-4 h1 {
@@ -378,8 +404,8 @@ section {
 
 #home-page .section-7 {
   background-color: #F8FEFF;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #home-page .section-7 h1 {
@@ -428,11 +454,7 @@ section {
   padding: 30px;
   background-color: white;
   border-radius: 8px;
-}
-
-#home-page .section-7 .middle-card {
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-bottom: 30px;
 }
 
 #home-page .section-8 {
@@ -477,5 +499,4 @@ section {
   border-radius: 27px;
   float: right;
 }
-
 </style>
