@@ -1,5 +1,5 @@
 <template>
-	<section id="footer">
+	<div id="footer">
       	<div class="container-fluid">
       		<div class="row first">
       			<div class="col-md-2 col-xs-12 col-sm-12">
@@ -26,7 +26,7 @@
       				<h3>About Us</h3><br/>
       				<p>Company <br> Careers <br>Media Kit <br>Privacy & Terms</p>
       			</div>
-      		</div>
+      		</div><hr/>
       		<div class="row bottom">
       			<div class="col-md-3 col-xs-12 col-sm-12">
       				<h3>Contact</h3><br/>
@@ -39,7 +39,7 @@
       			<div class="col-md-6 col-xs-12 col-sm-12 social"></div>
       		</div>
       	</div>
-  	</section>
+  	</div>
 </template>
 
 <script>

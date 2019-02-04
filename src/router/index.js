@@ -5,6 +5,7 @@ import Home from '../pages/Home'
 import Login from '../pages/Login'
 import Register from '../components/Register'
 import WhyChooseUs from '../pages/WhyChooseUs'
+import Careers from '../pages/Careers'
 
 Vue.use(Router)
 
@@ -20,6 +21,11 @@ let router = new Router({
       path: '/why-choose-us',
       name: 'WhyChooseUs',
       component: WhyChooseUs
+    },
+    {
+      path: '/careers',
+      name: 'Careers',
+      component: Careers
     },
     {
       path: '/login',

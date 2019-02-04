@@ -16,23 +16,21 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <router-link to="/why-choose-us"><a class="dropdown-item">Why Choose Blueform</a></router-link>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Success Rate</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Demo</a>
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Pricing <span class="sr-only">(current)</span></a>
+              <router-link to="/pricing" class="nav-link">Pricing <span class="sr-only">(current)</span></router-link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Learn
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <router-link to="/careers" class="nav-link">Careers</router-link>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
           </ul>
@@ -42,10 +40,9 @@
                 Support
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <router-link to="/about"><a class="dropdown-item">Another action</a></router-link>
+                <router-link to="/general-support" class="dropdown-item">General Support</router-link>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <router-link to="/contact-us" class="dropdown-item">Contact Us</router-link>
               </div>
             </li>
             <li class="nav-item">
