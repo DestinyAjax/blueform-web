@@ -107,24 +107,24 @@
           <h1>You are covered</h1>
           <p>Join other organizations who trust Blueform to make work <br/>easy for them and save cost.</p>
           <div class="row" style="margin-top: 80px;">
-            <div class="col-md-4 col-xs-12 col-sm-12 card">
-              <div class="col-md-12">
+            <div class="col-md-4 col-xs-12 col-sm-12">
+              <div class="col-md-12 col-xs-12 col-sm-12 card">
                 <img src="../assets/images/icon-01.png" />
-                <h2>Blueform for individuals</h2>
+                <h2>Blueform for <br/>individuals</h2>
                 <p>We help individuals conduct surveys and conduct data collection exercise anywhere in Africa with or without the internet.</p>
               </div>
             </div>
-            <div class="col-md-4 col-xs-12 col-sm-12 card">
-              <div class="col-md-12">
+            <div class="col-md-4 col-xs-12 col-sm-12">
+              <div class="col-md-12 col-xs-12 col-sm-12 card">
                 <img src="../assets/images/icon-02.png" />
-                <h2>Blueform for Non-profits</h2>
+                <h2>Blueform for <br/>Non-profits</h2>
                 <p>We make data collection, monitoring and evaluation easy and less expensive for non-profits</p>
               </div>
             </div>
-            <div class="col-md-4 col-xs-12 col-sm-12 card">
-              <div class="col-md-12">
+            <div class="col-md-4 col-xs-12 col-sm-12">
+              <div class="col-md-12 col-xs-12 col-sm-12 card">
                 <img src="../assets/images/icon-03.png" />
-                <h2>Blueform for Businesses</h2>
+                <h2>Blueform for <br/>Businesses</h2>
                 <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p>
               </div>
             </div>
@@ -146,19 +146,19 @@
         </div>
       </section><hr/>
 
-      <footer-section></footer-section>
+      <bottom-nav></bottom-nav>
     </div>
 </template>
 
 <script>
 import NavMenu from "@/components/NavMenu";
-import FooterSection from "@/components/FooterSection";
+import BottomNav from "@/components/BottomNav";
 
 export default {
   name: "Home",
   components: {
     NavMenu,
-    FooterSection
+    BottomNav
   }
 };
 </script>

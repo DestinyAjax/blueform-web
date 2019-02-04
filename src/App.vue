@@ -23,13 +23,4 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-#footer {
-	color: #223D68;
-}
-
-#footer .footer-bottom {
-  text-align: left;
-  margin-top: 40px;
-}
 </style>

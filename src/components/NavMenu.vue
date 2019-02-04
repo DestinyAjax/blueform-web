@@ -1,9 +1,9 @@
 <template>
     <nav id="nav" class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <router-link to="/" class="navbar-brand">
           <img src="../assets/images/blueform-logo.png" style="width: 200px;">
-        </a>
+        </router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon" style="border: 1px solid grey;"></span>
         </button>
@@ -15,7 +15,7 @@
                 Why Bluform
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
+                <router-link to="/why-choose-us"><a class="dropdown-item">Why Choose Blueform</a></router-link>
                 <a class="dropdown-item" href="#">Another action</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>

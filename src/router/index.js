@@ -4,6 +4,7 @@ import store from '../store'
 import Home from '../pages/Home'
 import Login from '../pages/Login'
 import Register from '../components/Register'
+import WhyChooseUs from '../pages/WhyChooseUs'
 
 Vue.use(Router)
 
@@ -14,6 +15,11 @@ let router = new Router({
       path: '/',
       name: 'Home',
       component: Home,
+    },
+    {
+      path: '/why-choose-us',
+      name: 'WhyChooseUs',
+      component: WhyChooseUs
     },
     {
       path: '/login',
