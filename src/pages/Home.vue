@@ -6,9 +6,9 @@
             <div class="row">
               <div class="col-md-6 col-xs-12 col-sm-12">
                 <div class="top-content">
-                  <h1>Modern online and offline data collection for Africa</h1>
+                  <h1>Modern online and <br/>offline data collection for <br/>Africa</h1>
                   <p class="subtitle">
-                    Blueform helps individuals and organizations in Africa collect data from any part of Africa in real time. 
+                    Blueform helps individuals and organizations in Africa collect data <br/>from any part of Africa in real time. 
                   </p>
                   <p><a class="button is-primary learn-more" href="">Create free account</a></p>
                 </div>
@@ -35,13 +35,13 @@
       
       <section class="section-3">
         <div class="container-fluid">
-          <h1 class="first">Simple, easy data collection</h1><br/>
+          <h1 class="first">Simple, easy data <br/>collection</h1><br/>
           <div class="row">
             <div class="col-md-6 col-xs-12 col-sm-12 background">
               <div style="padding: 150px;"></div>
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12 right-content">
-              <h1>Provide users with a seamless data collection experience</h1>
+              <h1>Provide users with a <br/>seamless data <br/>collection experience</h1>
               <p>Empower your team with a  modern, effortless, painless <br/>data collection tool. Design custom forms for data <br/>collection using any of our channels. </p><br/>
               <ul>
                 <li>Web</li>
@@ -190,7 +190,7 @@ section {
 }
 
 #home-page #first-section p {
-  /**font-family: Overpass **/
+  font-family: 'Overpass';
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -214,7 +214,7 @@ section {
 }
 
 #home-page .container .trusted-section p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -230,7 +230,6 @@ section {
 }
 
 #home-page .section-3 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -240,7 +239,6 @@ section {
 }
 
 #home-page .section-3 .first {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -250,7 +248,6 @@ section {
 }
 
 #home-page .section-3 .right-content h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -261,7 +258,7 @@ section {
 }
 
 #home-page .section-3 .right-content p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -272,7 +269,7 @@ section {
 }
 
 #home-page .section-3 .right-content ul {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -297,7 +294,6 @@ section {
 }
 
 #home-page .section-4 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -308,7 +304,7 @@ section {
 }
 
 #home-page .section-4 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -325,7 +321,7 @@ section {
 }
 
 #home-page .section-4 .left-content ul {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -343,7 +339,6 @@ section {
 }
 
 #home-page .section-5 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -356,7 +351,7 @@ section {
 }
 
 #home-page .section-5 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -374,7 +369,6 @@ section {
 }
 
 #home-page .section-6 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -386,7 +380,7 @@ section {
 }
 
 #home-page .section-6 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -409,7 +403,6 @@ section {
 }
 
 #home-page .section-7 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
@@ -421,7 +414,6 @@ section {
 }
 
 #home-page .section-7 h2 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
@@ -440,7 +432,7 @@ section {
 }
 
 #home-page .section-7 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
@@ -466,7 +458,6 @@ section {
 }
 
 #home-page .section-8 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 67px;
@@ -477,7 +468,7 @@ section {
 }
 
 #home-page .section-8 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 33px;
