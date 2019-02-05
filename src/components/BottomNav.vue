@@ -1,42 +1,66 @@
 <template>
 	<div id="footer">
-      	<div class="container-fluid">
+      	<div class="container">
       		<div class="row first">
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Why Blueform?</h3><br/>
-      				<p>For Individuals<br/>For Non-Profits <br/>For Businesses</p>
+      				<p>
+                <router-link to="/demo">For Individuals</router-link><br/>
+                <router-link to="/demo">For Non-Profits</router-link><br/>
+                <router-link to="/demo">For Businesses</router-link>
+              </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Developers</h3><br/>
-            		<p>Status page</p>
+            		<p>
+                  <router-link to="/demo">Status page</router-link>
+                </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Pricing</h3><br/>
-            		<p>Nigeria</p>
+            		<p>
+                  <router-link to="/demo">Nigeria</router-link>
+                </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Learn</h3><br/>
-            		<p>Blog<br/>Guides</p>
+            		<p><router-link to="/demo">Blog</router-link><br/>
+                  <router-link to="/demo">Guides</router-link>
+                </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Support</h3><br/>
-            		<p>Help Desk<br/>Contact us</p>
+            		<p>
+                  <router-link to="/demo">Help Desk</router-link><br/>
+                  <router-link to="/demo">Contact us</router-link>
+                </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>About Us</h3><br/>
-      				<p>Company <br> Careers <br>Media Kit <br>Privacy & Terms</p>
+      				<p>
+                <router-link to="/demo">Company</router-link><br> 
+                <router-link to="/demo">Careers</router-link><br>
+                <router-link to="/demo">Media Kit</router-link><br>
+                <router-link to="/demo">Privacy & Terms</router-link>
+              </p>
       			</div>
       		</div><hr/>
       		<div class="row bottom">
       			<div class="col-md-3 col-xs-12 col-sm-12">
       				<h3>Contact</h3><br/>
-      				<p>hello@blueform.co</p>
+      				<p><router-link to="/">hello@blueform.co</router-link></p>
       			</div>
       			<div class="col-md-3 col-xs-12 col-sm-12">
       				<h3>Lagos</h3><br/>
       				<p>Workstation Maryland Mall, <br/>Maryland, <br/>Lagos.</p>
       			</div>
-      			<div class="col-md-6 col-xs-12 col-sm-12 social"></div>
+      			<div class="col-md-6 col-xs-12 col-sm-12 social">
+              <router-link to="/"><span><i class="fab fa-twitter"></i></span></router-link>
+              <router-link to="/"><span><i class="fab fa-facebook"></i></span></router-link>
+              <router-link to="/"><span><i class="fab fa-instagram"></i></span></router-link>
+              <router-link to="/"><span><i class="fab fa-linkedin-in"></i></span></router-link>
+              <router-link to="/"><span><i class="fab fa-youtube"></i></span></router-link>
+            </div>
       		</div>
       	</div>
   	</div>

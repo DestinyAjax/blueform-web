@@ -7,27 +7,147 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/*** ---------- utilities ------------ ***/
-.learn-more {
-  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 18px;
-  padding: 20px;
-  border-radius: 27px;
+/*** for desktop scree ***/
+@media screen and (min-width: 601px) {
+
 }
 
-.learn-more a {
-  color: white;
+/*** for mobile screen ****/
+@media screen and (min-width: 600px) {
+
 }
+
+/*** ---------- utilities ------------ ***/
+.b-button {
+  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+  font-size: 15px;
+  border-radius: 15px;
+  will-change: transform, box-shadow;
+  transition: 0.25s;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  vertical-align: middle;
+  animation-duration: 1s;
+  animation-delay: .4s;
+  animation-name: fadeIn;
+  animation-duration: .4s;
+  animation-fill-mode: both;
+}
+
+.b-button-lg {
+  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+  font-size: 17px;
+  height: 54px;
+  border-radius: 25px;
+  will-change: transform, box-shadow;
+  border: none;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-block;
+  font-family: inherit;
+  vertical-align: middle;
+}
+
+.b-button-lg:hover {
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-fill-mode: both;
+  transition: 0.2s;
+}
+
+.mobile-nav {
+  width: 300px;
+  padding: 20px;
+}
+
+.mobile-nav h5 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.mobile-nav span {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.b-dropdown-menu {
+  width: 550px;
+  padding: 20px;
+}
+
+.b-dropdown-menu h5, .b-dropdown-menu h6 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  font-size: 15px;
+}
+
+.b-dropdown-menu h5 a:hover {
+  text-decoration: none;
+}
+
+.b-dropdown-menu h6 a:hover {
+  text-decoration: none;
+}
+
+.b-dropdown-menu p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.b-dropdown-menu span {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+#footer .social span {
+  font-size: 35px;
+  font-weight: 600;
+  color: #6F7E83;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#footer a {
+  color: #223D68;
+  font-weight: 600;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
 
 /** ** -------- Home page style ------------- */
 section {
-  margin-bottom: 30px;
-  padding: 60px;
+  margin-bottom: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
 
 #home-page #first-section {
   background-color: white;
   text-align: left;
+  background: url(../images/blueform-illustration.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 160px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  padding-left: 0px;
 }
 
 #home-page #first-section .top-content {
@@ -35,11 +155,18 @@ section {
   margin-bottom: 100px;
 }
 
-#home-page #first-section h1 {
+#home-page #first-section .trust p {
   font-style: normal;
   font-weight: 600;
-  line-height: 55px;
-  font-size: 40px;
+  color: #223D68;
+  font-size: 14px;
+}
+
+#home-page #first-section h1 {
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45px;
+  font-size: 35px;
   letter-spacing: -0.01em;
   color: #223D68;
   margin-bottom: 10px;
@@ -61,33 +188,11 @@ section {
   background-repeat: no-repeat;
 }
 
-#home-page #first-section .learn-more {
-  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 18px;
-  padding: 30px;
-  border-radius: 27px;
-}
-
-#home-page .container .trusted-section p {
-  font-family: Overpass;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  font-size: 18px;
-  letter-spacing: -0.01em;
-  text-align: left;
-  color: #223D68;
-}
-
-#home-page .trusted-section img {
-  height: 60px;
-}
-
 #home-page .section-3 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 40px;
+  line-height: 40px;
+  font-size: 30px;
   letter-spacing: -0.01em;
   text-align: left;
 }
@@ -95,8 +200,8 @@ section {
 #home-page .section-3 .first {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
   letter-spacing: -0.01em;
   text-align: left;
   color: #223D68;
@@ -105,8 +210,8 @@ section {
 #home-page .section-3 .right-content h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
   text-align: right;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -148,8 +253,8 @@ section {
 #home-page .section-4 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
   letter-spacing: -0.01em;
   color: #223D68;
   text-align: left;
@@ -191,8 +296,8 @@ section {
 #home-page .section-5 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
   text-align: right;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -220,8 +325,8 @@ section {
 #home-page .section-6 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -253,8 +358,8 @@ section {
 #home-page .section-7 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 53px;
-  font-size: 35px;
+  line-height: 40px;
+  font-size: 30px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -265,25 +370,25 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: -0.01em;
   color: #223D68;
-  text-align: center;
-  margin-bottom: 10px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 #home-page .section-7 img {
   margin-bottom: 10px;
-  width: 162px;
-  height: 172px;
-  text-align: center;
+  width: 132px;
+  height: 122px;
+  text-align: left;
 }
 
 #home-page .section-7 p {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   letter-spacing: 0.01em;
   color: #6F7E83;
@@ -293,8 +398,8 @@ section {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
-  text-align: center;
+  font-size: 16px;
+  text-align: left;
   letter-spacing: 0.01em;
   color: #6F7E83;
 }
@@ -317,8 +422,8 @@ section {
 #home-page .section-8 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 50px;
-  font-size: 45px;
+  line-height: 40px;
+  font-size: 40px;
   letter-spacing: -0.01em;
   color: #223D68;
   text-align: left;
@@ -338,13 +443,6 @@ section {
 
 #home-page .section-8 .right {
   text-align: right;
-}
-
-#home-page .section-8 .learn-more {
-  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 18px;
-  padding: 30px;
-  border-radius: 27px;
 }
 
 /**** ------------ careers page styles -------------- **/
