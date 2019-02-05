@@ -15,10 +15,11 @@
                 Why Bluform
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <router-link to="/why-choose-us"><a class="dropdown-item">Why Choose Blueform</a></router-link>
-                <a class="dropdown-item" href="#">Success Rate</a>
+                <router-link to="/why-choose-us" class="dropdown-item">Why Choose Blueform</router-link>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Demo</a>
+                <router-link to="/" class="dropdown-item">Success Rate</router-link>
+                <div class="dropdown-divider"></div>
+                <router-link to="/" class="dropdown-item">Demo</router-link>
               </div>
             </li>
             <li class="nav-item active">
@@ -49,7 +50,7 @@
               <router-link to="/login"><a class="nav-link">Login</a></router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/login"><a class="button is-primary learn-more" href="">Create free account</a></router-link>
+              <router-link to="/login" class="button is-primary learn-more"><a style="color: white;">Create free account</a></router-link>
             </li>
           </ul>
         </div>
@@ -64,16 +65,15 @@ export default {
 </script>
 
 <style scoped>
+
 #nav {
-  padding-right: 80px;
-  padding-left: 80px;
-  padding-top: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 10px;
   color: #223D68;
-  /**font-family: Montserrat**/;
   font-style: normal;
-  font-weight: 600;
   line-height: normal;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: -0.01em;
 }
 
@@ -83,13 +83,5 @@ export default {
 
 #nav ul li {
   margin-right: 40px;
-}
-
-#nav .learn-more {
-  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 20px;
-  padding: 30px;
-  border-radius: 27px;
-  color: white;
 }
 </style>

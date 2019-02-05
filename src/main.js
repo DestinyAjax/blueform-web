@@ -12,6 +12,7 @@ import 'buefy/dist/buefy.css'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './assets/css/style.css'
 
 Vue.config.productionTip = false
 

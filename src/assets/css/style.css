@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+body {
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*** ---------- utilities ------------ ***/
+.learn-more {
+  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 27px;
+}
+
+.learn-more a {
+  color: white;
+}
+
+/** ** -------- Home page style ------------- */
 section {
-  margin-bottom: 130px;
+  margin-bottom: 30px;
+  padding: 60px;
 }
 
 #home-page #first-section {
@@ -8,102 +31,107 @@ section {
 }
 
 #home-page #first-section .top-content {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 60px;
+  margin-bottom: 100px;
 }
 
 #home-page #first-section h1 {
   font-style: normal;
   font-weight: 600;
   line-height: 55px;
-  font-size: 53px;
+  font-size: 40px;
   letter-spacing: -0.01em;
   color: #223D68;
+  margin-bottom: 10px;
 }
 
 #home-page #first-section p {
-  /**font-family: Overpass **/
+  font-family: 'Overpass';
   font-style: normal;
-  font-weight: 600;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.01em;
   color: #6F7E83;
 }
 
 #home-page #first-section .illustration {
-  background: url(/assets/images/illustration.png);
+  background: url(../images/illustration.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #home-page #first-section .learn-more {
   background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 20px;
+  font-size: 18px;
   padding: 30px;
   border-radius: 27px;
 }
 
 #home-page .container .trusted-section p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: -0.01em;
   text-align: left;
   color: #223D68;
-  margin-bottom: 10px;
 }
 
 #home-page .trusted-section img {
-  height: 80px;
+  height: 60px;
 }
 
 #home-page .section-3 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
-  font-size: 48px;
+  font-size: 40px;
   letter-spacing: -0.01em;
   text-align: left;
 }
 
-#home-page .section-3 .right-content h1 {
-  /**font-family: Montserrat;**/
+#home-page .section-3 .first {
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
-  font-size: 48px;
+  font-size: 35px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #223D68;
+}
+
+#home-page .section-3 .right-content h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53px;
+  font-size: 35px;
   text-align: right;
   letter-spacing: -0.01em;
   color: #223D68;
 }
 
 #home-page .section-3 .right-content p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
-  font-weight: 600;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: right;
   letter-spacing: 0.01em;
   color: #6F7E83;
 }
 
 #home-page .section-3 .right-content ul {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
-  margin-bottom: 60px;
-  padding-left: 110px;
-  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  margin-top: 30px;
 }
 
 #home-page .section-3 .right-content ul li {
@@ -111,94 +139,89 @@ section {
 }
 
 #home-page .section-3 .background {
-  background: url(/assets/images/african-phone.jpg);
+  background: url(../images/african-phone.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #home-page .section-4 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
-  font-size: 48px;
+  font-size: 35px;
   letter-spacing: -0.01em;
   color: #223D68;
   text-align: left;
 }
 
 #home-page .section-4 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
-  font-weight: 600;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.01em;
   text-align: left;
   color: #6F7E83;
 }
 
 #home-page .section-4 .background {
-  background: url(/assets/images/section-4.jpeg);
+  background: url(../images/section-4.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 #home-page .section-4 .left-content ul {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
-  margin-bottom: 60px;
-  margin-top: 40px;
-  padding-left: 50px;
+  margin-top: 30px;
+  padding-left: 30px;
 }
 
 #home-page .section-4 .left-content ul li {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #home-page .section-5 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
-  font-size: 48px;
+  font-size: 35px;
   text-align: right;
   letter-spacing: -0.01em;
   color: #223D68;
-  padding-top: 90px;
+  padding-top: 60px;
   margin-bottom: 20px;
 }
 
 #home-page .section-5 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
-  font-weight: 600;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: right;
   letter-spacing: 0.01em;
   color: #6F7E83;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
 }
 
 #home-page .section-5 .background {
-  background: url(/assets/images/section-5.jpeg);
+  background: url(../images/section-5.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 #home-page .section-6 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
-  font-size: 48px;
+  font-size: 35px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -206,34 +229,32 @@ section {
 }
 
 #home-page .section-6 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
-  font-weight: 600;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: 0.01em;
   color: #6F7E83;
 }
 
 #home-page .section-6 .background {
-  background: url(/assets/images/section-6.jpeg);
+  background: url(../images/section-6.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 #home-page .section-7 {
   background-color: #F8FEFF;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 35px;
+  padding-bottom: 30px;
 }
 
 #home-page .section-7 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
   line-height: 53px;
-  font-size: 48px;
+  font-size: 35px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -241,24 +262,39 @@ section {
 }
 
 #home-page .section-7 h2 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
-  line-height: 30px;
-  font-size: 30px;
+  line-height: 40px;
+  font-size: 35px;
   letter-spacing: -0.01em;
   color: #223D68;
-  text-align: left;
+  text-align: center;
   margin-bottom: 10px;
 }
 
+#home-page .section-7 img {
+  margin-bottom: 10px;
+  width: 162px;
+  height: 172px;
+  text-align: center;
+}
+
 #home-page .section-7 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
-  font-weight: 600;
   line-height: 26px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
+  letter-spacing: 0.01em;
+  color: #6F7E83;
+}
+
+#home-page .section-7 .card p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: center;
   letter-spacing: 0.01em;
   color: #6F7E83;
 }
@@ -267,26 +303,29 @@ section {
   padding: 30px;
   background-color: white;
   border-radius: 8px;
+  margin-bottom: 30px;
 }
 
-#home-page .section-7 .middle-card {
-  margin-right: 3rem;
-  margin-left: 3rem;
+#home-page .section-8 {
+  background: url(../images/wavy-background.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 #home-page .section-8 h1 {
-  /**font-family: Montserrat;**/
   font-style: normal;
   font-weight: 600;
-  line-height: 67px;
-  font-size: 60px;
+  line-height: 50px;
+  font-size: 45px;
   letter-spacing: -0.01em;
   color: #223D68;
   text-align: left;
 }
 
 #home-page .section-8 p {
-  /**font-family: Overpass;**/
+  font-family: Overpass;
   font-style: normal;
   font-weight: 600;
   line-height: 33px;
@@ -303,7 +342,416 @@ section {
 
 #home-page .section-8 .learn-more {
   background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+  font-size: 18px;
+  padding: 30px;
+  border-radius: 27px;
+}
+
+/**** ------------ careers page styles -------------- **/
+#careers .section-1 {
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#careers .section-1 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#careers .section-1 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #6F7E83;
+}
+
+#careers .section-2 {
+  background: url(../images/wavy-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#careers .learn-more {
+  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+  font-size: 18px;
+  padding: 30px;
+  border-radius: 27px;
+  color: white;
+}
+
+#careers .section-3 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#careers .section-3 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#careers .section-3 .circle {
+  background: linear-gradient(270deg, #3C94EE 122.79%, #1D64E7 -30.15%);
+  height: 75px;
+  width: 75px;
+  padding: 20px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+#careers .section-3 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #888888;
+}
+
+#careers .section-3 h2 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
   font-size: 20px;
+  letter-spacing: 2px;
+  color: #223D68;
+}
+
+#careers .section-4 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#careers .section-4 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+  margin-bottom: 40px;
+}
+
+#careers .section-4 ul {
+  padding-left: 30px;
+}
+
+#careers .section-4 ul li {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+/*****  ------------------ why choose us page style ---------------- ****/
+#choose-us .section-1 {
+  padding-top: 150px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#choose-us .section-1 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#choose-us .section-2 {
+  background: url(../images/wavy-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#choose-us .section-3 {
+  margin-bottom: 30px;
+    padding: 60px;
+}
+
+#choose-us .section-3 .background {
+  background: url(../images/african-phone.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us h2 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  text-align: left;
+  letter-spacing: 0.09em;
+  color: #C8C8C8;
+}
+
+#choose-us h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#choose-us p {
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #6F7E83;
+}
+
+#choose-us .section-3 ul {
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#choose-us .section-3 .content {
+  padding-left: 40px;
+}
+
+#choose-us .section-4 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-4 .background {
+  background: url(../images/african-children.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-4 .content {
+  padding: 40px;
+}
+
+#choose-us .section-5 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-5 .content {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#choose-us .section-5 .background {
+  background: url(../images/section-5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-6 .content {
+  padding: 40px;
+}
+
+#choose-us .section-6 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-6 .background {
+  background: url(../images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-7 .content {
+  padding: 40px;
+}
+
+#choose-us .section-7 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-7 .background {
+  background: url(../images/analysis.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-8 .content {
+  padding: 40px;
+}
+
+#choose-us .section-8 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-8 .background {
+  background: url(../images/innovation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-9 .content {
+  padding: 60px;
+}
+
+#choose-us .section-9 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-9 .background {
+  background: url(../images/user-headphone.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-10 .content {
+  padding: 60px;
+}
+
+#choose-us .section-10 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#choose-us .section-10 .background {
+  background: url(../images/user-headphone.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-11 .content {
+  padding: 60px;
+}
+
+#choose-us .section-11 {
+  margin-bottom: 30px;
+    padding: 60px;
+}
+
+#choose-us .section-11 .background {
+  background: url(../images/section-4.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#choose-us .section-12 {
+  background-color: #F8FEFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#choose-us .section-12 h2 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 30px;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#choose-us .section-12 img {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 162px;
+  height: 172px;
+}
+
+#choose-us .section-12 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #6F7E83;
+}
+
+#choose-us .section-12 .card {
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+#choose-us .section-13 {
+  background: url(../images/wavy-background.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#choose-us .section-13 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  font-size: 50px;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  text-align: left;
+}
+
+#choose-us .section-13 p {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  font-size: 25px;
+  text-align: left;
+  letter-spacing: 0.01em;
+  color: #223D68;
+  margin-bottom: 20px;
+}
+
+#choose-us .section-13 .right {
+  text-align: right;
+}
+
+#choose-us .section-13 .learn-more {
+  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+  font-size: 18px;
   padding: 30px;
   border-radius: 27px;
   float: right;
