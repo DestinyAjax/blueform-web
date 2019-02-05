@@ -41,7 +41,8 @@
                 <router-link to="/demo">Company</router-link><br> 
                 <router-link to="/demo">Careers</router-link><br>
                 <router-link to="/demo">Media Kit</router-link><br>
-                <router-link to="/demo">Privacy & Terms</router-link>
+                <router-link to="/demo">Privacy</router-link><br/>
+                <router-link to="/demo">Terms of Agreement</router-link>
               </p>
       			</div>
       		</div><hr/>

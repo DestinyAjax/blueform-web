@@ -23,17 +23,13 @@ body {
   font-size: 15px;
   border-radius: 15px;
   will-change: transform, box-shadow;
-  transition: 0.25s;
+  transition: 0.3s;
+  opacity: 0.7;
   border: none;
   cursor: pointer;
   display: inline-block;
   font-family: inherit;
   vertical-align: middle;
-  animation-duration: 1s;
-  animation-delay: .4s;
-  animation-name: fadeIn;
-  animation-duration: .4s;
-  animation-fill-mode: both;
 }
 
 .b-button-lg {
@@ -41,7 +37,6 @@ body {
   font-size: 17px;
   height: 54px;
   border-radius: 25px;
-  will-change: transform, box-shadow;
   border: none;
   cursor: pointer;
   padding-left: 30px;
@@ -49,13 +44,16 @@ body {
   display: inline-block;
   font-family: inherit;
   vertical-align: middle;
+  transition: 0.3s;
+  opacity: 0.8;
 }
 
 .b-button-lg:hover {
-  animation-duration: 1s;
-  animation-delay: .2s;
-  animation-fill-mode: both;
-  transition: 0.2s;
+  opacity: 1;
+}
+
+.b-button:hover {
+  opacity: 1;
 }
 
 .mobile-nav {
@@ -120,12 +118,16 @@ body {
 
 #footer a {
   color: #223D68;
-  font-weight: 600;
+  font-size: 15px;
 }
 
 #footer a:hover {
   text-decoration: none;
   color: blue;
+}
+
+.borderless td, .borderless th {
+    border: none;
 }
 
 
@@ -151,7 +153,7 @@ section {
 }
 
 #home-page #first-section .top-content {
-  padding-top: 60px;
+  padding-top: 20px;
   margin-bottom: 100px;
 }
 
@@ -160,6 +162,11 @@ section {
   font-weight: 600;
   color: #223D68;
   font-size: 14px;
+}
+
+#home-page #first-section .trust img {
+  width: 250px;
+  padding: 10px;
 }
 
 #home-page #first-section h1 {
@@ -286,12 +293,15 @@ section {
   letter-spacing: -0.01em;
   color: #223D68;
   margin-top: 30px;
-  padding-left: 30px;
 }
 
 #home-page .section-4 .left-content ul li {
   margin-bottom: 30px;
 }
+
+/*#home-page .section-4 .left-content ul li i {
+  color: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+}*/
 
 #home-page .section-5 h1 {
   font-style: normal;
@@ -398,10 +408,29 @@ section {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: 0.01em;
   color: #6F7E83;
+}
+
+#home-page .section-7 .card h6 {
+  font-weight: 600;
+  line-height: 40px;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#home-page .section-7 .card a {
+  color: #223D68;
+}
+
+#home-page .section-7 .card a:hover {
+  text-decoration: none;
+  color: #1ABC9C;
 }
 
 #home-page .section-7 .card {

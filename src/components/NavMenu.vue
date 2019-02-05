@@ -120,7 +120,8 @@ export default {
   color: #223D68;
   font-style: normal;
   line-height: normal;
-  font-size: 15px;
+  font-weight: 1000;
+  font-size: 16px;
   letter-spacing: -0.01em;
 }
 

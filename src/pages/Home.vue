@@ -14,12 +14,12 @@
                 </div>
                 <div class="trust">
                   <p>Trusted by the best</p>
-                  <table class="table">
+                  <table class="table borderless">
                     <tr>
                       <td><img src="../assets/images/tic-logo.png"/></td>
-                      <td><img src="../assets/images/tic-logo.png" /></td>
+                      <td><img src="../assets/images/boldx-logo.png" style="width: 350px;"/></td>
                       <td><img src="../assets/images/identity-logo.png" /></td>
-                      <td><img src="../assets/images/identity-logo.png" /></td>
+                      <td></td>
                     </tr>
                  </table>
                 </div>
@@ -57,10 +57,10 @@
             <div class="col-md-6 col-xs-12 col-sm-12 left-content">
               <h1>Manage data collection with ease.</h1>
               <p>Project managers love managing data collection project or monitoring and evaluation exercise using Blueform from simple data collection exercises to complex projects, they can receive and track forms sent to team members or field agents from anywhere.</p>
-              <ul>
-                <li><i class="fas fa-bookmark"></i> Collect real-time information from team members or field agents using the web, mobile or USSD channels.</li>
-                <li><i class="fas fa-bookmark"></i> Monitor location that data came from using our accurate GIS mapping</li>
-                <li><i class="fas fa-bookmark"></i> Collect direct beneficiary feedback using the USSD and Web channel.</li>
+              <ul class="fa-ul">
+                <li><i class="fa-li fas fa-cloud"></i> Collect real-time information from team members or field agents using the web, mobile or USSD channels.</li>
+                <li><i class="fa-li fas fa-cloud"></i> Monitor location that data came from using our accurate GIS mapping</li>
+                <li><i class="fa-li fas fa-cloud"></i> Collect direct beneficiary feedback using the USSD and Web channel.</li>
               </ul>
             </div>
             <div class="col-md-6 col-xs-12 col-sm-12 background">
@@ -108,13 +108,17 @@
                 <p><img src="../assets/images/icon-01.png" /></p>
                 <h2>Blueform for <br/>individuals</h2>
                 <p>We help individuals conduct surveys and conduct data collection exercise anywhere in Africa with or without the internet.</p>
+                <h6><router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link></h6>
               </div>
             </div>
             <div class="col-md-4 col-xs-12 col-sm-12">
               <div class="col-md-12 col-xs-12 col-sm-12 card">
                 <p><img src="../assets/images/icon-02.png" /></p>
                 <h2>Blueform for <br/>Non-profits</h2>
-                <p>We make data collection, monitoring and evaluation easy and less expensive for non-profits</p>
+                <p>We make data collection, monitoring and evaluation easy and less expensive <br/>for non-profits</p>
+                <h6>
+                  <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
+                </h6>
               </div>
             </div>
             <div class="col-md-4 col-xs-12 col-sm-12">
@@ -122,6 +126,9 @@
                 <p><img src="../assets/images/icon-03.png" /></p>
                 <h2>Blueform for <br/>Businesses</h2>
                 <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p>
+                <h6>
+                  <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
+                </h6>
               </div>
             </div>
           </div>
