@@ -1,11 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import store from '../store'
+
 import Home from '../pages/Home'
-import Login from '../pages/Login'
-import Register from '../components/Register'
 import WhyChooseUs from '../pages/WhyChooseUs'
 import Careers from '../pages/Careers'
+import Support from '../pages/Support'
+import Contact from '../pages/Contact'
+import PricingYearly from '../pages/PricingYearly'
+import PricingMonthly from '../pages/PricingMonthly'
 
 Vue.use(Router)
 
@@ -28,14 +30,24 @@ let router = new Router({
       component: Careers
     },
     {
-      path: '/login',
-      name: 'Login',
-      component: Login
+      path: '/contact-us',
+      name: 'Contact',
+      component: Contact
     },
     {
-      path: '/register',
-      name: 'Register',
-      component: Register
+      path: '/general-support',
+      name: 'Support',
+      component: Support
+    },
+    {
+      path: '/pricing-yearly',
+      name: 'PricingYearly',
+      component: PricingYearly
+    },
+    {
+      path: '/pricing-monthly',
+      name: 'PricingMonthly',
+      component: PricingMonthly
     }
   ]
 })

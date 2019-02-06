@@ -5,44 +5,44 @@
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Why Blueform?</h3><br/>
       				<p>
-                <router-link to="/demo">For Individuals</router-link><br/>
-                <router-link to="/demo">For Non-Profits</router-link><br/>
-                <router-link to="/demo">For Businesses</router-link>
+                <router-link to="/for-individuals">For Individuals</router-link><br/>
+                <router-link to="/non-profit">For Non-Profits</router-link><br/>
+                <router-link to="/for-business">For Businesses</router-link>
               </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Developers</h3><br/>
             		<p>
-                  <router-link to="/demo">Status page</router-link>
+                  <router-link to="/developers">Status page</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Pricing</h3><br/>
             		<p>
-                  <router-link to="/demo">Nigeria</router-link>
+                  <router-link to="/nigeria">Nigeria</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Learn</h3><br/>
-            		<p><router-link to="/demo">Blog</router-link><br/>
-                  <router-link to="/demo">Guides</router-link>
+            		<p><router-link to="/blog">Blog</router-link><br/>
+                  <router-link to="/guides">Guides</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Support</h3><br/>
             		<p>
-                  <router-link to="/demo">Help Desk</router-link><br/>
-                  <router-link to="/demo">Contact us</router-link>
+                  <router-link to="/help-desk">Help Desk</router-link><br/>
+                  <router-link to="/contact-us">Contact us</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>About Us</h3><br/>
       				<p>
-                <router-link to="/demo">Company</router-link><br> 
-                <router-link to="/demo">Careers</router-link><br>
-                <router-link to="/demo">Media Kit</router-link><br>
-                <router-link to="/demo">Privacy</router-link><br/>
-                <router-link to="/demo">Terms of Agreement</router-link>
+                <router-link to="/company">Company</router-link><br> 
+                <router-link to="/careers">Careers</router-link><br>
+                <router-link to="/media-kit">Media Kit</router-link><br>
+                <router-link to="/privacy">Privacy</router-link><br/>
+                <router-link to="/terms-of-agreement">Terms of Agreement</router-link>
               </p>
       			</div>
       		</div><hr/>
@@ -74,7 +74,6 @@ export default {
 </script>
 
 <style scoped>
-
 #footer {
   color: #223D68;
   padding: 80px;
@@ -100,4 +99,21 @@ export default {
   text-align: right;
 }
 
+#footer .social span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #6F7E83;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#footer a {
+  color: #223D68;
+  font-size: 15px;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: blue;
+}
 </style>

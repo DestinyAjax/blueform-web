@@ -86,9 +86,9 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Support
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">                
-                <router-link to="/general-support" class="dropdown-item">General Support</router-link>
-                <router-link to="/contact-us" class="dropdown-item">Contact Us</router-link>
+              <div class="dropdown-menu support-dropdown" aria-labelledby="navbarDropdown">                
+                <h6><router-link to="/general-support">General Support</router-link></h6>
+                <h6><router-link to="/contact-us">Contact Us</router-link></h6>
               </div>
             </li>
             <li class="nav-item">
@@ -127,5 +127,74 @@ export default {
 
 #nav a {
   color: #223D68;
+}
+
+.mobile-nav {
+  width: 300px;
+  padding: 20px;
+}
+
+.mobile-nav h5 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.mobile-nav span {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.b-dropdown-menu {
+  width: 550px;
+  padding: 20px;
+}
+
+.b-dropdown-menu h5, .b-dropdown-menu h6 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  font-size: 15px;
+}
+
+.b-dropdown-menu h5 a:hover {
+  text-decoration: none;
+}
+
+.b-dropdown-menu h6 a:hover {
+  text-decoration: none;
+}
+
+.b-dropdown-menu p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.b-dropdown-menu span {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.support-dropdown {
+  width: 200px;
+  padding: 20px;
+}
+
+.support-dropdown a {
+  margin-bottom: 15px;
+  letter-spacing: -0.01em;
+  color: #223D68;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.support-dropdown a:hover {
+  text-decoration: none;
 }
 </style>

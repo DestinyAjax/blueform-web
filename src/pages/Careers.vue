@@ -1,5 +1,5 @@
 <template>
-	<div id="careers">
+	<div id="career">
     	<nav-menu></nav-menu><hr/>
 
       	<section class="text-center section-1">
@@ -8,7 +8,7 @@
 	      		<div class="col-md-6 col-xs-12 col-sm-12">
 			      	<h1>Impact that matters!</h1>
 			      	<p>We’re looking for dreamers and doers to shape the future of Blueform. Here, you’ll make your own decisions, work with smart people and build products people want.</p><br/>
-			      	<p><router-link to="/login"><a class="button is-primary learn-more" href="">View open positions</a></router-link></p>
+			      	<p><router-link to="/login"><button class="btn btn-primary b-button-lg">View open positions</button></router-link></p>
 			    </div>
 			    <div class="col-md-3 col-xs-12 col-sm-12"></div>
 			</div>
@@ -19,8 +19,8 @@
       	</div>
 
       	<section class="section-3 text-center">
-	      	<div class="container-fuild">
-		        <div class="circle"></div>
+	      	<div class="container">
+		        <div class="circle"><i class="fas fa-heart"></i></div>
 		        <h1>Life at Blueform</h1>
 		        <div class="row" style="margin-top: 60px;">
 		        	<div class="col-md-3 col-sm-12 col-xs-12">
@@ -41,33 +41,33 @@
 		        	</div>
 		        </div>
 		    </div>
-      	</section>
+      	</section><hr/>
 
       	<section class="section-4">
-      		<div class="container-fluid">
+      		<div class="container">
 	      		<h1>Small team, big perks</h1>
 	      		<div class="row">
 	      			<div class="col-md-6 col-sm-12 col-xs-12">
-	      				<ul>
-			                <li>Team offsites and trips to fun, unique destinations.</li>
-			                <li>The latest tech and equipment to outfit your desk.</li>
-			                <li>20 days annual leave</li>
-			                <li>Comprehensive health insurance</li>
-			                <li>Montly gym credit</li>
+	      				<ul class="fa-ul">
+			                <li><i class="fa-li fas fa-cloud"></i> Team offsites and trips to fun, unique destinations.</li>
+			                <li><i class="fa-li fas fa-cloud"></i> The latest tech and equipment to outfit your desk.</li>
+			                <li><i class="fa-li fas fa-cloud"></i> 20 days annual leave</li>
+			                <li><i class="fa-li fas fa-cloud"></i> Comprehensive health insurance</li>
+			                <li><i class="fa-li fas fa-cloud"></i> Montly gym credit</li>
 			            </ul>
 	      			</div>
 	      			<div class="col-md-6 col-sm-12 col-xs-12">
-	      				<ul>
-			                <li>Monthly Taxify/Uber ride credit</li>
-			                <li>Monthly airtime credit</li>
-			                <li>Performances bonuses</li>
-			                <li>Comprehensive health insurance</li>
-			                <li>Tailor-made professional development for every team member</li>
+	      				<ul class="fa-ul">
+			                <li><i class="fa-li fas fa-cloud"></i> Monthly Taxify/Uber ride credit</li>
+			                <li><i class="fa-li fas fa-cloud"></i> Monthly airtime credit</li>
+			                <li><i class="fa-li fas fa-cloud"></i> Performances bonuses</li>
+			                <li><i class="fa-li fas fa-cloud"></i> Comprehensive health insurance</li>
+			                <li><i class="fa-li fas fa-cloud"></i> Tailor-made professional development for every team member</li>
 			            </ul>
 	      			</div>
 	      		</div>
 	      	</div>
-      	</section>
+      	</section></hr>
 
       	<bottom-nav></bottom-nav>
     </div>

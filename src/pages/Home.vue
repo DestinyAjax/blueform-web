@@ -10,6 +10,9 @@
                   <p class="subtitle">
                     Blueform helps individuals and organizations in Africa collect data from any part of Africa in real time. 
                   </p>
+                  <div class="d-block d-md-none mobile-nav">
+                    <img src="../assets/images/illustration.png" class="img-responsive" />
+                  </div>
                   <p><button class="btn btn-primary b-button-lg">Create free account</button></p>
                 </div>
                 <div class="trust">
@@ -98,58 +101,8 @@
         </div>
       </section>
 
-      <section class="section-7">
-        <div class="container">
-          <h1>You are covered</h1>
-          <p>Join other organizations who trust Blueform to make work easy for them and save cost.</p>
-          <div class="row" style="margin-top: 40px;">
-            <div class="col-md-4 col-xs-12 col-sm-12">
-              <div class="col-md-12 col-xs-12 col-sm-12 card">
-                <p><img src="../assets/images/icon-01.png" /></p>
-                <h2>Blueform for <br/>individuals</h2>
-                <p>We help individuals conduct surveys and conduct data collection exercise anywhere in Africa with or without the internet.</p>
-                <h6><router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link></h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-xs-12 col-sm-12">
-              <div class="col-md-12 col-xs-12 col-sm-12 card">
-                <p><img src="../assets/images/icon-02.png" /></p>
-                <h2>Blueform for <br/>Non-profits</h2>
-                <p>We make data collection, monitoring and evaluation easy and less expensive <br/>for non-profits</p>
-                <h6>
-                  <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
-                </h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-xs-12 col-sm-12">
-              <div class="col-md-12 col-xs-12 col-sm-12 card">
-                <p><img src="../assets/images/icon-03.png" /></p>
-                <h2>Blueform for <br/>Businesses</h2>
-                <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p>
-                <h6>
-                  <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-8">
-        <div class="container">
-          <p>Try Blueform Now</p><br/>
-          <div class="row">
-            <div class="col-md-6 col-xs-12 col-sm-12">
-              <h1>Do more with less</h1>
-            </div>
-            <div class="col-md-3 col-xs-12 col-sm-12"></div>
-            <div class="col-md-3 col-xs-12 col-sm-12 right">
-              <p><button class="btn btn-primary b-button-lg">Create free account</button></p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <you-are-covered></you-are-covered>
+      <do-more></do-more>
       <bottom-nav></bottom-nav>
     </div>
 </template>
@@ -157,12 +110,16 @@
 <script>
 import NavMenu from "@/components/NavMenu";
 import BottomNav from "@/components/BottomNav";
+import DoMore from "@/components/DoMore";
+import YouAreCovered from "@/components/YouAreCovered";
 
 export default {
   name: "Home",
   components: {
     NavMenu,
-    BottomNav
+    BottomNav,
+    DoMore,
+    YouAreCovered
   }
 };
 </script>

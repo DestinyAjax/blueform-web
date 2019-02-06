@@ -7,14 +7,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  color: #223D68;
+}
+
 /*** for desktop scree ***/
 @media screen and (min-width: 601px) {
-
+  #home-page #first-section {
+    background-color: white;
+    text-align: left;
+    background: url(../images/blueform-illustration.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 160px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+  }
 }
 
 /*** for mobile screen ****/
-@media screen and (min-width: 600px) {
-
+@media screen and (max-width: 600px) {
+  #home-page #first-section {
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+  }
 }
 
 /*** ---------- utilities ------------ ***/
@@ -56,100 +78,45 @@ body {
   opacity: 1;
 }
 
-.mobile-nav {
-  width: 300px;
-  padding: 20px;
-}
-
-.mobile-nav h5 {
-  font-weight: 800;
-  letter-spacing: -0.01em;
-  color: #223D68;
-  font-size: 15px;
-  margin-bottom: 20px;
-}
-
-.mobile-nav span {
-  display: block;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
-.b-dropdown-menu {
-  width: 550px;
-  padding: 20px;
-}
-
-.b-dropdown-menu h5, .b-dropdown-menu h6 {
-  font-weight: 800;
-  letter-spacing: -0.01em;
-  color: #223D68;
-  font-size: 15px;
-}
-
-.b-dropdown-menu h5 a:hover {
-  text-decoration: none;
-}
-
-.b-dropdown-menu h6 a:hover {
-  text-decoration: none;
-}
-
-.b-dropdown-menu p {
-  margin-bottom: 30px;
-  font-size: 15px;
-}
-
-.b-dropdown-menu span {
-  display: block;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
-#footer .social span {
-  font-size: 35px;
-  font-weight: 600;
-  color: #6F7E83;
-  display: inline-block;
-  margin-right: 15px;
-}
-
-#footer a {
-  color: #223D68;
-  font-size: 15px;
-}
-
-#footer a:hover {
-  text-decoration: none;
-  color: blue;
-}
-
 .borderless td, .borderless th {
     border: none;
+}
+
+.bf-h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+.bf-h2 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  color: #888888;;
+}
+
+.bf-p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #6F7E83;
+  padding-bottom: 60px;
 }
 
 
 /** ** -------- Home page style ------------- */
 section {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px;
-}
-
-#home-page #first-section {
-  background-color: white;
-  text-align: left;
-  background: url(../images/blueform-illustration.jpg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-top: 160px;
-  padding-right: 0px;
-  padding-bottom: 100px;
-  padding-left: 0px;
+  padding-bottom: 20px;
 }
 
 #home-page #first-section .top-content {
@@ -190,7 +157,7 @@ section {
 
 #home-page #first-section .illustration {
   background: url(../images/illustration.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -359,96 +326,131 @@ section {
   background-position: center;
 }
 
-#home-page .section-7 {
-  background-color: #F8FEFF;
-  padding-top: 35px;
-  padding-bottom: 30px;
+/**** ------------ careers page styles -------------- **/
+#career .section-1 {
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#home-page .section-7 h1 {
+#career .section-1 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 40px;
+  line-height: 44px;
   font-size: 30px;
-  text-align: left;
-  letter-spacing: -0.01em;
+  text-align: center;
+  letter-spacing: -0.02em;
   color: #223D68;
-  margin-bottom: 20px;
 }
 
-#home-page .section-7 h2 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 40px;
-  font-size: 30px;
-  letter-spacing: -0.01em;
-  color: #223D68;
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-#home-page .section-7 img {
-  margin-bottom: 10px;
-  width: 132px;
-  height: 122px;
-  text-align: left;
-}
-
-#home-page .section-7 p {
-  font-family: Overpass;
-  font-style: normal;
-  line-height: 26px;
-  font-size: 16px;
-  text-align: left;
-  letter-spacing: 0.01em;
-  color: #6F7E83;
-}
-
-#home-page .section-7 .card p {
+#career .section-1 p {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
   font-size: 18px;
-  text-align: left;
-  letter-spacing: 0.01em;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #6F7E83;
 }
 
-#home-page .section-7 .card h6 {
-  font-weight: 600;
-  line-height: 40px;
-  font-size: 16px;
-  letter-spacing: -0.01em;
-  color: #223D68;
-  text-align: left;
-  margin-top: 20px;
-}
-
-#home-page .section-7 .card a {
-  color: #223D68;
-}
-
-#home-page .section-7 .card a:hover {
-  text-decoration: none;
-  color: #1ABC9C;
-}
-
-#home-page .section-7 .card {
-  padding: 30px;
-  background-color: white;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-#home-page .section-8 {
+#career .section-2 {
   background: url(../images/wavy-background.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+#career .section-3 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#career .section-3 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#career .section-3 .circle {
+  background: linear-gradient(270deg, #3C94EE 122.79%, #1D64E7 -30.15%);
+  height: 75px;
+  width: 75px;
+  padding: 20px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+#career .section-3 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #888888;
+}
+
+#career .section-3 h2 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #223D68;
+}
+
+#career .section-4 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#career .section-4 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+  margin-bottom: 40px;
+}
+
+#career .section-4 ul {
+  padding-left: 30px;
+}
+
+#career .section-4 ul li {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+#career .section-4 ul li .fa-li {
+  color: #223D68;
+}
+
+/*****  ------------------ do-more component section styles ---------------- ****/
+#section-more {
+  background: url(../images/wavy-background.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 30px;
   padding-bottom: 50px;
 }
 
-#home-page .section-8 h1 {
+#section-more h1 {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
@@ -458,7 +460,7 @@ section {
   text-align: left;
 }
 
-#home-page .section-8 p {
+#section-more p {
   font-family: Overpass;
   font-style: normal;
   font-weight: 600;
@@ -470,153 +472,28 @@ section {
   margin-bottom: 20px;
 }
 
-#home-page .section-8 .right {
+#section-more .right {
   text-align: right;
-}
-
-/**** ------------ careers page styles -------------- **/
-#careers .section-1 {
-  padding-top: 150px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#careers .section-1 h1 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  font-size: 35px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #223D68;
-}
-
-#careers .section-1 p {
-  font-family: Overpass;
-  font-style: normal;
-  line-height: 26px;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #6F7E83;
-}
-
-#careers .section-2 {
-  background: url(../images/wavy-background.png);
-  background-size: cover;
-  background-position: center;
-}
-
-#careers .learn-more {
-  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 18px;
-  padding: 30px;
-  border-radius: 27px;
-  color: white;
-}
-
-#careers .section-3 {
-  margin-bottom: 30px;
-  padding: 60px;
-}
-
-#careers .section-3 h1 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  font-size: 35px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #223D68;
-}
-
-#careers .section-3 .circle {
-  background: linear-gradient(270deg, #3C94EE 122.79%, #1D64E7 -30.15%);
-  height: 75px;
-  width: 75px;
-  padding: 20px;
-  color: white;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  border-radius: 50%;
-}
-
-#careers .section-3 p {
-  font-family: Overpass;
-  font-style: normal;
-  line-height: 24px;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 1px;
-  color: #888888;
-}
-
-#careers .section-3 h2 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 25px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: #223D68;
-}
-
-#careers .section-4 {
-  margin-bottom: 30px;
-  padding: 60px;
-}
-
-#careers .section-4 h1 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  font-size: 35px;
-  letter-spacing: -0.02em;
-  color: #223D68;
-  margin-bottom: 40px;
-}
-
-#careers .section-4 ul {
-  padding-left: 30px;
-}
-
-#careers .section-4 ul li {
-  font-family: Overpass;
-  font-style: normal;
-  line-height: normal;
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  color: #888888;
-  margin-bottom: 20px;
 }
 
 /*****  ------------------ why choose us page style ---------------- ****/
 #choose-us .section-1 {
   padding-top: 150px;
-  padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#choose-us .section-1 h1 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  font-size: 35px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: #223D68;
-}
 
 #choose-us .section-2 {
   background: url(../images/wavy-background.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #choose-us .section-3 {
   margin-bottom: 30px;
-    padding: 60px;
+  padding: 60px;
 }
 
 #choose-us .section-3 .background {
@@ -626,32 +503,38 @@ section {
   background-repeat: no-repeat;
 }
 
-#choose-us h2 {
+#choose-us .section-3 h1, #choose-us .section-4 h1, #choose-us .section-5 h1,
+#choose-us .section-6 h1, #choose-us .section-7 h1, #choose-us .section-8 h1, #choose-us .section-9 h1,
+#choose-us .section-10 h1, #choose-us .section-11 h1 {
   font-style: normal;
   font-weight: 600;
   line-height: 44px;
-  font-size: 35px;
-  text-align: left;
-  letter-spacing: 0.09em;
-  color: #C8C8C8;
-}
-
-#choose-us h1 {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: -0.02em;
   color: #223D68;
 }
 
-#choose-us p {
+#choose-us .section-3 h2, #choose-us .section-4 h2, #choose-us .section-5 h2,
+#choose-us .section-6 h2, #choose-us .section-7 h2, #choose-us .section-8 h2, #choose-us .section-9 h2,
+#choose-us .section-10 h2, #choose-us .section-11 h2 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  color: #888888;;
+}
+
+#choose-us .section-3 p, #choose-us .section-1 p, #choose-us .section-4 p, #choose-us .section-5 p,
+#choose-us .section-6 p, #choose-us .section-7 p, #choose-us .section-8 p, #choose-us .section-9 p,
+#choose-us .section-10 p, #choose-us .section-11 p {
+  font-family: Overpass;
   font-style: normal;
   line-height: 26px;
   font-size: 18px;
-  text-align: justify;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: #6F7E83;
+  padding-bottom: 20px;
 }
 
 #choose-us .section-3 ul {
@@ -661,6 +544,10 @@ section {
   font-size: 18px;
   letter-spacing: -0.02em;
   color: #223D68;
+}
+
+#choose-us .section-3 ul li {
+  margin-bottom: 20px;
 }
 
 #choose-us .section-3 .content {
@@ -797,89 +684,216 @@ section {
   background-repeat: no-repeat;
 }
 
-#choose-us .section-12 {
-  background-color: #F8FEFF;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 60px;
-  padding-right: 60px;
+/*** ----- contact page style ------- ****/
+#contact .section-1 {
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#choose-us .section-12 h2 {
+#contact .section-1 h1 {
   font-style: normal;
   font-weight: 600;
-  line-height: 30px;
-  font-size: 30px;
-  letter-spacing: -0.01em;
+  line-height: 44px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
   color: #223D68;
-  text-align: center;
-  margin-bottom: 10px;
 }
 
-#choose-us .section-12 img {
-  text-align: center;
-  margin-bottom: 10px;
-  width: 162px;
-  height: 172px;
-}
-
-#choose-us .section-12 p {
+#contact .section-1 p {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
   font-size: 18px;
   text-align: center;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   color: #6F7E83;
 }
 
-#choose-us .section-12 .card {
-  padding: 30px;
-  background-color: white;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-#choose-us .section-13 {
+#contact .section-2 {
   background: url(../images/wavy-background.png);
   background-size: cover;
   background-position: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 60px;
-  padding-right: 60px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 
-#choose-us .section-13 h1 {
-  font-style: normal;
+#contact .section-2 p a {
+  font-size: 30px;
   font-weight: 600;
-  line-height: 50px;
-  font-size: 50px;
-  letter-spacing: -0.01em;
-  color: #223D68;
-  text-align: left;
+  color: #6F7E83;
+  margin-right: 15px;
 }
 
-#choose-us .section-13 p {
-  font-family: Overpass;
+#contact .section-2 .card {
+  padding: 40px;
+}
+
+#contact .section-2 .card h2 {
   font-style: normal;
   font-weight: 600;
-  line-height: 33px;
+  line-height: 44px;
   font-size: 25px;
   text-align: left;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.02em;
   color: #223D68;
+}
+
+#contact .section-2 .card a:hover {
+  text-decoration: none;
+}
+
+#contact .section-3 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#contact .section-3 .background {
+  background: url(../images/user-headphone.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#contact .section-3 .content {
+  padding: 50px;
+}
+
+#contact .section-3 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#contact .section-3 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: #6F7E83;
+}
+
+#contact .section-3 ul {
+  font-family: Overpass;
+  font-style: normal;
+  font-size: 18px;
+  color: #6F7E83;
+}
+
+#contact .section-3 ul li {
   margin-bottom: 20px;
 }
 
-#choose-us .section-13 .right {
-  text-align: right;
+#contact .section-3 ul li .fa-li {
+  color: #223D68;
 }
 
-#choose-us .section-13 .learn-more {
-  background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+#contact .section-3 h6 a {
+  margin-left: 10px;
+}
+
+#contact .section-3 h6 a:hover {
+  text-decoration: none;
+}
+
+/*** ----- general page style ------- ****/
+#general-support .section-1 {
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#general-support .section-1 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#general-support .section-1 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
   font-size: 18px;
-  padding: 30px;
-  border-radius: 27px;
-  float: right;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #6F7E83;
+}
+
+#general-support .section-3 {
+  background: url(../images/wavy-background.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+#general-support .section-3 {
+  margin-bottom: 30px;
+  padding: 60px;
+}
+
+#general-support .section-3 .content {
+  padding: 50px;
+  background-color: white;
+}
+
+#general-support .section-3 .form {
+  padding: 50px;
+  background-color: white;
+  color: #223D68;
+}
+
+#general-support .section-3 h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#general-support .section-3 p {
+  font-family: Overpass;
+  font-style: normal;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: #6F7E83;
+}
+
+#general-support .section-3 ul {
+  font-family: Overpass;
+  font-style: normal;
+  font-size: 18px;
+  color: #6F7E83;
+}
+
+#general-support .section-3 ul li {
+  margin-bottom: 20px;
+}
+
+#general-support .section-3 ul li .fa-li {
+  color: #223D68;
+}
+
+#general-support .section-3 h6 a {
+  margin-left: 10px;
+}
+
+#general-support .section-3 h6 a:hover {
+  text-decoration: none;
 }
