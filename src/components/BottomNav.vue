@@ -6,8 +6,8 @@
       				<h3>Why Blueform?</h3><br/>
       				<p>
                 <router-link to="/for-individuals">For Individuals</router-link><br/>
-                <router-link to="/non-profit">For Non-Profits</router-link><br/>
-                <router-link to="/for-business">For Businesses</router-link>
+                <router-link to="/for-non-profit">For Non-Profits</router-link><br/>
+                <router-link to="/for-businesses">For Businesses</router-link>
               </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
@@ -41,7 +41,7 @@
                 <router-link to="/company">Company</router-link><br> 
                 <router-link to="/careers">Careers</router-link><br>
                 <router-link to="/media-kit">Media Kit</router-link><br>
-                <router-link to="/privacy">Privacy</router-link><br/>
+                <router-link to="/privacy-policy">Privacy Policy</router-link><br/>
                 <router-link to="/terms-of-agreement">Terms of Agreement</router-link>
               </p>
       			</div>

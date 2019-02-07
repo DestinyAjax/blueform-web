@@ -18,11 +18,11 @@
                 <div class="d-block d-md-none mobile-nav">
                   <h5><router-link to="/why-choose-us">Why Choose Blueform</router-link></h5>
                   <h5><router-link to="/why-choose-us">Success Rate</router-link></h5>
-                  <h5><router-link to="/why-choose-us">Demo</router-link></h5><br/>
+                  <h5><router-link to="/demo">Demo</router-link></h5><br/>
                   <span>Your Growth Stage</span>
-                  <h5><router-link to="/individual">For Individual</router-link></h5>
-                  <h5><router-link to="/non-profit">For Non-Profit</router-link></h5>
-                  <h5><router-link to="/enterprise">For Enterprises</router-link></h5>
+                  <h5><router-link to="/for-individuals">For Individual</router-link></h5>
+                  <h5><router-link to="/for-non-profit">For Non-Profit</router-link></h5>
+                  <h5><router-link to="/for-businesses">For Businesses</router-link></h5>
                 </div>
                 <div class="b-dropdown-menu d-none d-md-block">
                   <div class="row">
@@ -36,9 +36,9 @@
                     </div>
                     <div class="col-md-4 side">
                       <span>Your Growth Stage</span>
-                      <h6><router-link to="/individual">For Individual</router-link></h6>
-                      <h6><router-link to="/non-profit">For Non-Profit</router-link></h6>
-                      <h6><router-link to="/enterprise">For Enterprises</router-link></h6>
+                      <h6><router-link to="/for-individuals">For Individual</router-link></h6>
+                      <h6><router-link to="/for-non-profit">For Non-Profit</router-link></h6>
+                      <h6><router-link to="/for-businesses">For Businesses</router-link></h6>
                     </div>
                   </div>
                 </div>
@@ -59,7 +59,8 @@
                   <h5><router-link to="/company">Company</router-link></h5>
                   <h5><router-link to="/careers">Careers</router-link></h5>
                   <h5><router-link to="/enterprise">Media Kit</router-link></h5>
-                  <h5><router-link to="/pivacy-terms">Privacy & Terms</router-link></h5>
+                  <h5><router-link to="/privacy-policy">Privacy Policy & Terms</router-link></h5>
+                  <h5><router-link to="/terms-of-agreement">Terms of Agreement</router-link></h5>
                 </div>
                 <div class="b-dropdown-menu d-none d-md-block">
                   <div class="row">
@@ -73,8 +74,9 @@
                       <span>ABOUT US</span>
                       <h6><router-link to="/company">Company</router-link></h6>
                       <h6><router-link to="/careers">Careers</router-link></h6>
-                      <h6><router-link to="/enterprise">Media Kit</router-link></h6>
-                      <h6><router-link to="/pivacy-terms">Privacy & Terms</router-link></h6>
+                      <h6><router-link to="/media-kit">Media Kit</router-link></h6>
+                      <h6><router-link to="/privacy-policy">Privacy Policy</router-link></h6>
+                      <h6><router-link to="/terms-of-agreement">Terms of Agreement</router-link></h6>
                     </div>
                   </div>
                 </div>
@@ -130,7 +132,7 @@ export default {
 }
 
 .mobile-nav {
-  width: 300px;
+  width: auto;
   padding: 20px;
 }
 
@@ -158,7 +160,7 @@ export default {
   font-weight: 800;
   letter-spacing: -0.01em;
   color: #223D68;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .b-dropdown-menu h5 a:hover {
@@ -190,7 +192,7 @@ export default {
   margin-bottom: 15px;
   letter-spacing: -0.01em;
   color: #223D68;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 800;
 }
 

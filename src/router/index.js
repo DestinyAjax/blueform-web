@@ -8,6 +8,11 @@ import Support from '../pages/Support'
 import Contact from '../pages/Contact'
 import PricingYearly from '../pages/PricingYearly'
 import PricingMonthly from '../pages/PricingMonthly'
+import Individual from '../pages/Individual';
+import Businesses from '../pages/Businesses';
+import NonProfit from '../pages/NonProfit';
+import Agreement from '../pages/Agreement';
+import Policy from '../pages/Policy';
 
 Vue.use(Router)
 
@@ -48,6 +53,31 @@ let router = new Router({
       path: '/pricing-monthly',
       name: 'PricingMonthly',
       component: PricingMonthly
+    },
+    {
+      path: '/for-individuals',
+      name: 'Individual',
+      component: Individual
+    },
+    {
+      path: '/for-non-profit',
+      name: 'NonProfit',
+      component: NonProfit
+    },
+    {
+      path: '/for-businesses',
+      name: 'Businesses',
+      component: Businesses
+    },
+    {
+      path: '/terms-of-agreement',
+      name: 'Agreement',
+      component: Agreement
+    },
+    {
+      path: '/privacy-policy',
+      name: 'Policy',
+      component: Policy
     }
   ]
 })

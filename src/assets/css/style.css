@@ -40,6 +40,48 @@ h1 {
 }
 
 /*** ---------- utilities ------------ ***/
+.content-area {
+  background-color: #F8FEFF;
+  padding: 30px;
+}
+
+.content-area p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Overpass;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  color: #6F7E83;
+}
+
+.content-area h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 25px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+.for-individual-background {
+  background: url(../images/for-individual.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.for-non-profit-background {
+  background: url(../images/for-non-profit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.for-business-background {
+  /*background: url(../images/for-businesses.jpg);*/
+  background-size: cover;
+  background-position: center;
+}
+
 .b-button {
   background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
   font-size: 15px;
@@ -713,7 +755,7 @@ section {
 
 #contact .section-2 {
   background: url(../images/wavy-background.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   margin-top: 70px;
   margin-bottom: 40px;
