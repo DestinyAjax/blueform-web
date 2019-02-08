@@ -24,13 +24,13 @@
                 <div style="padding: 150px;"></div>
               </div>
               <div class="col-md-6 col-xs-12 col-sm-12 content">
-                  <h1>Sursvey using our own channel</h1>                  
+                  <h1>Survey using our own channel</h1>                  
                   <ul class="fa-ul">
                       <li><i class="fa-li fas fa-cloud"></i> USSD Code</li>
                       <li><i class="fa-li fas fa-cloud"></i> Web form</li>
                       <li><i class="fa-li fas fa-cloud"></i> Offline enabled mobile App</li>
                   </ul><br/>
-                  <h6><router-link to="/"> Search the help desk <i class="fas fa-check-circle"></i></router-link></h6>
+                  <h6><router-link to="/"> Sign up <i class="fas fa-check-circle"></i></router-link></h6>
               </div>
             </div>
         </div>

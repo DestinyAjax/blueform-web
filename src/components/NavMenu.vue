@@ -17,7 +17,6 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <div class="d-block d-md-none mobile-nav">
                   <h5><router-link to="/why-choose-us">Why Choose Blueform</router-link></h5>
-                  <h5><router-link to="/why-choose-us">Success Rate</router-link></h5>
                   <h5><router-link to="/demo">Demo</router-link></h5><br/>
                   <span>Your Growth Stage</span>
                   <h5><router-link to="/for-individuals">For Individual</router-link></h5>
@@ -29,8 +28,6 @@
                     <div class="col-md-8" style="border-right: 1px dotted grey;">
                       <h5><router-link to="/why-choose-us">Why Choose Blueform</router-link></h5>
                       <p>Individuals, business, non-business love blueform</p>
-                      <h5><router-link to="/success-rate">Success Rate</router-link></h5>
-                      <p>Get the best data available when you need it</p>
                       <h5><router-link to="/demo">Demo</router-link></h5>
                       <p>See Blueform live in action</p>
                     </div>
@@ -45,7 +42,7 @@
               </div>
             </li>
             <li class="nav-item active">
-              <router-link to="/pricing" class="nav-link">Pricing <span class="sr-only">(current)</span></router-link>
+              <router-link to="/pricing-monthly" class="nav-link">Pricing <span class="sr-only">(current)</span></router-link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
