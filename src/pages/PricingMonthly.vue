@@ -32,7 +32,7 @@
                   <div class="col-md-12 col-xs-12 col-sm-12 card star" style="margin-top: 20px;">
                     <h2>Standard</h2>
                     <h1>N36,000</h1>
-                    <p>100 responses / month <br/>10 questions <br/>Web + Mobile + USSD <br/>24/7 support</p><br/>
+                    <p>1000 responses / month <br/>100 questions <br/>Web + Mobile + USSD <br/>24/7 support</p><br/>
                     <h6 class="text-center" style='margin-top:10px; margin-bottom: 30px;'><router-link to="/"> Go Standard <i class="fas fa-check-circle"></i></router-link></h6>
                   </div>
                 </div>

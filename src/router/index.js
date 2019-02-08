@@ -13,6 +13,7 @@ import Businesses from '../pages/Businesses';
 import NonProfit from '../pages/NonProfit';
 import Agreement from '../pages/Agreement';
 import Policy from '../pages/Policy';
+import Company from '../pages/Company';
 
 Vue.use(Router)
 
@@ -78,6 +79,11 @@ let router = new Router({
       path: '/privacy-policy',
       name: 'Policy',
       component: Policy
+    },
+    {
+      path: '/about',
+      name: 'Company',
+      component: Company
     }
   ]
 })

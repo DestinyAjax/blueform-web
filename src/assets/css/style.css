@@ -883,6 +883,42 @@ section {
   padding: 50px;
 }
 
+#contact .team {
+  margin-top: 130px;
+  text-align: center;
+  padding: 60px;
+}
+
+#contact .team img {
+  width: 200px;
+}
+
+#contact .team h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+  margin-top: 10px;
+}
+
+#contact .team h1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  color: #223D68;
+}
+
+#contact .team p {
+  font-family: Overpass;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #6F7E83;
+}
+
 #contact .section-3 h1 {
   font-style: normal;
   font-weight: 600;

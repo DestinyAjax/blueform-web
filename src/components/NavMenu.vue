@@ -53,7 +53,7 @@
                   <h5><router-link to="/blog">Blog</router-link></h5>
                   <h5><router-link to="/guide">Guide</router-link></h5><br/>
                   <span>ABOUT US</span>
-                  <h5><router-link to="/company">Company</router-link></h5>
+                  <h5><router-link to="/about">Company</router-link></h5>
                   <h5><router-link to="/careers">Careers</router-link></h5>
                   <h5><router-link to="/enterprise">Media Kit</router-link></h5>
                   <h5><router-link to="/privacy-policy">Privacy Policy & Terms</router-link></h5>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-md-4 side">
                       <span>ABOUT US</span>
-                      <h6><router-link to="/company">Company</router-link></h6>
+                      <h6><router-link to="/about">Company</router-link></h6>
                       <h6><router-link to="/careers">Careers</router-link></h6>
                       <h6><router-link to="/media-kit">Media Kit</router-link></h6>
                       <h6><router-link to="/privacy-policy">Privacy Policy</router-link></h6>
