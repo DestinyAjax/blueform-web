@@ -44,17 +44,17 @@
               <div class="col-md-4 col-xs-12 col-sm-12">
                 <img src="../assets/images/tochukwu.jpg" alt="tochukwu-ogesi" class="rounded-circle" />
                 <h6>Tochukwu Egesi</h6>
-                <p>CEO & Founder</p>
+                <p>Founder</p>
               </div>
               <div class="col-md-4 col-xs-12 col-sm-12">
                 <img src="../assets/images/kelechi.jpg" alt="kelechi-ezenwaka" class="rounded-circle" />
                 <h6>Kelechi Ezenwaka</h6>
-                <p>CTO & Co-founder</p>
+                <p>Founder</p>
               </div>
               <div class="col-md-4 col-xs-12 col-sm-12">
                 <img src="../assets/images/oby.jpg" alt="oby-azubuike" class="rounded-circle" />
                 <h6>Oby Azubuike</h6>
-                <p>Business</p>
+                <p>Data Analysis & Learning</p>
               </div>
             </div>
             <div class="row text-center" style="margin-top: 60px;">
@@ -69,7 +69,7 @@
                 <p>Engineering</p>
               </div>
               <div class="col-md-4 col-xs-12 col-sm-12">
-                <img src="../assets/images/oby.jpg" alt="miracle-okeke" class="rounded-circle" />
+                <img src="../assets/images/miracle.jpg" alt="miracle-okeke" class="rounded-circle" />
                 <h6>Miracle Okeke</h6>
                 <p>Engineering</p>
               </div>

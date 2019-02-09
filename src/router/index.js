@@ -14,6 +14,8 @@ import NonProfit from '../pages/NonProfit';
 import Agreement from '../pages/Agreement';
 import Policy from '../pages/Policy';
 import Company from '../pages/Company';
+import SignIn from '../pages/SignIn';
+import SignUp from '../pages/SignUp';
 
 Vue.use(Router)
 
@@ -84,6 +86,16 @@ let router = new Router({
       path: '/about',
       name: 'Company',
       component: Company
+    },
+    {
+      path: '/signin',
+      name: 'SignIn',
+      component: SignIn
+    },
+    {
+      path: '/signup',
+      name: 'SignUp',
+      component: SignUp
     }
   ]
 })

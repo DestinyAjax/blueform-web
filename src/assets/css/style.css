@@ -84,8 +84,9 @@ h1 {
 
 .b-button {
   background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 15px;
-  border-radius: 15px;
+  font-size: 13px;
+   font-family: 'Montserrat';
+  border-radius: 10px;
   will-change: transform, box-shadow;
   transition: 0.3s;
   opacity: 0.7;
@@ -94,22 +95,28 @@ h1 {
   display: inline-block;
   font-family: inherit;
   vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  height: 40px;
 }
 
 .b-button-lg {
   background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
-  font-size: 17px;
-  height: 54px;
-  border-radius: 25px;
+  font-size: 15px;
+  font-family: 'Montserrat';
+  height: 50px;
+  border-radius: 15px;
   border: none;
   cursor: pointer;
+  letter-spacing: 1px;
   padding-left: 30px;
   padding-right: 30px;
   display: inline-block;
-  font-family: inherit;
   vertical-align: middle;
   transition: 0.3s;
   opacity: 0.8;
+  font-weight: 600;
 }
 
 .b-button-lg:hover {
@@ -182,7 +189,7 @@ section {
   font-style: normal;
   font-weight: 800;
   line-height: 45px;
-  font-size: 35px;
+  font-size: 33px;
   letter-spacing: -0.01em;
   color: #223D68;
   margin-bottom: 10px;
@@ -192,7 +199,7 @@ section {
   font-family: 'Overpass';
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.01em;
   color: #6F7E83;
 }
@@ -208,7 +215,7 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 26px;
   letter-spacing: -0.01em;
   text-align: left;
 }
@@ -227,7 +234,7 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: right;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -237,7 +244,7 @@ section {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 15px;
   text-align: right;
   letter-spacing: 0.01em;
   color: #6F7E83;
@@ -246,7 +253,7 @@ section {
 #home-page .section-3 .right-content ul {
   font-family: Overpass;
   font-style: normal;
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -270,7 +277,7 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 26px;
   letter-spacing: -0.01em;
   color: #223D68;
   text-align: left;
@@ -280,7 +287,7 @@ section {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.01em;
   text-align: left;
   color: #6F7E83;
@@ -316,7 +323,7 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: right;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -328,7 +335,7 @@ section {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: right;
   letter-spacing: 0.01em;
   color: #6F7E83;
@@ -345,7 +352,7 @@ section {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: left;
   letter-spacing: -0.01em;
   color: #223D68;
@@ -356,7 +363,7 @@ section {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   letter-spacing: 0.01em;
   color: #6F7E83;

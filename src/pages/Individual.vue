@@ -30,7 +30,7 @@
                       <li><i class="fa-li fas fa-cloud"></i> Web form</li>
                       <li><i class="fa-li fas fa-cloud"></i> Offline enabled mobile App</li>
                   </ul><br/>
-                  <h6><router-link to="/"> Sign up <i class="fas fa-check-circle"></i></router-link></h6>
+                  <h6><router-link to="/signup"> Sign up <i class="fas fa-check-circle"></i></router-link></h6>
               </div>
             </div>
         </div>

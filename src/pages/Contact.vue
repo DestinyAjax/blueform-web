@@ -39,8 +39,11 @@
 		            <div class="col-md-4 col-xs-12 col-sm-12">
 		              	<div class="col-md-12 col-xs-12 col-sm-12 card" style="margin-top: 20px;">
 			                <h2>Press and Media Kit</h2>
-			                <p>Get company info, bios, photos, brand assets, and other media resources.</p><br/>
-			                <h6 style='margin-top:10px;'><router-link to="/"> Search the help desk <i class="fas fa-check-circle"></i></router-link></h6>
+			                <p>Get company info, bios, photos, brand assets, and other media resources.</p>
+			                <p>
+				                <router-link to="/"><i class="fab fa-google"></i></router-link>
+	              				<router-link to="/"><i class="fab fa-whatsapp"></i></router-link>
+	              			</p>
 		              	</div>
 		            </div>
 	          	</div>

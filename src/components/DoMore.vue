@@ -8,7 +8,11 @@
         </div>
         <div class="col-md-3 col-xs-12 col-sm-12"></div>
         <div class="col-md-3 col-xs-12 col-sm-12 right">
-          <p><button class="btn btn-primary b-button-lg">Create free account</button></p>
+          <p>
+            <router-link to="/signup">
+              <button class="btn btn-primary b-button-lg">Create free account</button>
+            </router-link>
+          </p>
         </div>
       </div>
     </div>

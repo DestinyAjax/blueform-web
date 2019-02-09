@@ -13,7 +13,11 @@
                   <div class="d-block d-md-none mobile-nav">
                     <img src="../assets/images/illustration.png" class="img-responsive" />
                   </div>
-                  <p><button class="btn btn-primary b-button-lg">Create free account</button></p>
+                  <p>
+                    <router-link to="/signup">
+                      <button class="btn btn-primary b-button-lg">Create free account</button>
+                    </router-link>
+                  </p>
                 </div>
                 <div class="trust">
                   <p>Trusted by the best</p>

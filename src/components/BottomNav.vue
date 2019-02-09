@@ -40,7 +40,6 @@
       				<p>
                 <router-link to="/company">Company</router-link><br> 
                 <router-link to="/careers">Careers</router-link><br>
-                <router-link to="/media-kit">Media Kit</router-link><br>
                 <router-link to="/privacy-policy">Privacy Policy</router-link><br/>
                 <router-link to="/terms-of-agreement">Terms of Agreement</router-link>
               </p>

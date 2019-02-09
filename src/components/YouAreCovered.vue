@@ -16,7 +16,7 @@
               <div class="col-md-12 col-xs-12 col-sm-12 card">
                 <p><img src="../assets/images/icon-02.png" /></p>
                 <h2>Blueform for <br/>Non-profits</h2>
-                <p>We make data collection, monitoring and evaluation easy and less expensive <br/>for non-profits</p>
+                <p>We make data collection, monitoring and evaluation easy and less expensive <br/>for non-profits</p><br/>
                 <h6>
                   <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
                 </h6>
@@ -26,7 +26,7 @@
               <div class="col-md-12 col-xs-12 col-sm-12 card">
                 <p><img src="../assets/images/icon-03.png" /></p>
                 <h2>Blueform for <br/>Businesses</h2>
-                <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p>
+                <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p><br/>
                 <h6>
                   <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
                 </h6>
@@ -65,11 +65,11 @@ export default {
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: -0.01em;
   color: #223D68;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .covered img {
@@ -93,7 +93,7 @@ export default {
   font-family: Overpass;
   font-style: normal;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   letter-spacing: 0.01em;
   color: #6F7E83;

@@ -2,7 +2,7 @@
     <nav id="nav" class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <router-link to="/" class="navbar-brand">
-          <img src="../assets/images/blueform-logo.png" style="width: 150px;">
+          <img src="../assets/images/blueform-logo.png" style="width: 120px;">
         </router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars" style="font-size:30px;color: #BDC3C7;"></i>
@@ -71,7 +71,6 @@
                       <span>ABOUT US</span>
                       <h6><router-link to="/about">Company</router-link></h6>
                       <h6><router-link to="/careers">Careers</router-link></h6>
-                      <h6><router-link to="/media-kit">Media Kit</router-link></h6>
                       <h6><router-link to="/privacy-policy">Privacy Policy</router-link></h6>
                       <h6><router-link to="/terms-of-agreement">Terms of Agreement</router-link></h6>
                     </div>
@@ -91,10 +90,10 @@
               </div>
             </li>
             <li class="nav-item">
-              <router-link to="/login" class="nav-link">Login</router-link>
+              <router-link to="/signin" class="nav-link">Login</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/login">
+              <router-link to="/signup">
                 <button class="btn btn-primary b-button">Create free account</button>
               </router-link>
             </li>
@@ -120,7 +119,7 @@ export default {
   font-style: normal;
   line-height: normal;
   font-weight: 1000;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: -0.01em;
 }
 
