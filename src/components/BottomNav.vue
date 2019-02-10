@@ -19,7 +19,7 @@
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Pricing</h3><br/>
             		<p>
-                  <router-link to="/nigeria">Nigeria</router-link>
+                  <router-link to="/pricing-monthly">Nigeria</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">

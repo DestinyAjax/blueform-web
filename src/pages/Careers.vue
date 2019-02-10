@@ -23,22 +23,19 @@
 		        <div class="circle"><i class="fas fa-heart"></i></div>
 		        <h1>Life at Blueform</h1>
 		        <div class="row" style="margin-top: 60px;">
-		        	<div class="col-md-3 col-sm-12 col-xs-12">
+		        	<div class="col-md-4 col-sm-12 col-xs-12">
 		        		<h2>Personality</h2><br/><br/>
-		        		<p>Our fun and quirky team makes Envoy great. We would never want you to leave your personality at the door.</p>
+		        		<p>Our fun and quirky team makes Blueform great. We would never want you to leave your personality at the door.</p>
 		        	</div>
-		        	<div class="col-md-3 col-sm-12 col-xs-12">
+		        	<div class="col-md-4 col-sm-12 col-xs-12">
 		        		<h2>Professional</h2><br/><br/>
-		        		<p>Team Envoy is small yet mighty. This is a great place to learn, grow and participate first hand in something big.</p>
+		        		<p>Team Blueform is small yet mighty. This is a great place to learn, grow and participate first hand in something big.</p>
 		        	</div>
-		        	<div class="col-md-3 col-sm-12 col-xs-12">
+		        	<div class="col-md-4 col-sm-12 col-xs-12">
 		        		<h2>Product-market fit</h2><br/><br/>
-		        		<p>Simply put, our products <br/>solve problems. We have a healthy revenue stream from happy, paying customers who agree.</p>
+		        		<p>Simply put, our products solve problems. We have a healthy revenue stream from happy, paying customers who agree.</p>
 		        	</div>
-		        	<div class="col-md-3 col-sm-12 col-xs-12">
-		        		<h2>Personality</h2><br/><br/>
-		        		<p>From Pandora, to Box, Yelp and beyond, millions of visitors interact with Envoy in top offices around the world.From Pandora, to Box, Yelp and beyond, millions of visitors interact with Blueform in top offices around the world.</p>
-		        	</div>
+		        	
 		        </div>
 		    </div>
       	</section><hr/>

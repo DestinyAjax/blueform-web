@@ -48,7 +48,7 @@
                   <div class="col-md-12 col-xs-12 col-sm-12 card" style="margin-top: 20px;">
                     <h2>Premium Plus</h2>
                     <h1>N199,000</h1>
-                    <p>3.000 responses / mo <br/>Unlimited questions <br/>Web + Mobile + USSD <br/>Dedicated support</p><br/>
+                    <p>5,000 responses / mo <br/>Unlimited questions <br/>Web + Mobile + USSD <br/>Dedicated support</p><br/>
                     <h6 class="text-center" style='margin-top:10px;'><router-link to="/"> Go Plus <i class="fas fa-check-circle"></i></router-link></h6>
                   </div>
                 </div>
@@ -56,7 +56,7 @@
                   <div class="col-md-12 col-xs-12 col-sm-12 card" style="margin-top: 20px;">
                     <h2>Enterprise</h2>
                     <h1 style="font-size: 19px;">Contact Sales</h1>
-                    <p>3,000 responses / mo <br/>Unlimited questions <br/>Web + Mobile + USSD <br/>Dedicated support</p><br/>
+                    <p>3,000 responses / mo <br/>Unlimited questions <br/>Web + Mobile + USSD <br/>Dedicated support<br/>Customization<br/> White listing <br/> Data analysis support</p><br/>
                     <h6 class="text-center" style='margin-top:10px;'><router-link to="/"> Go Enterprise <i class="fas fa-check-circle"></i></router-link></h6>
                   </div>
                 </div>

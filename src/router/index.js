@@ -16,6 +16,7 @@ import Policy from '../pages/Policy';
 import Company from '../pages/Company';
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
+import ForgotPassword from '../pages/ForgotPassword';
 
 Vue.use(Router)
 
@@ -96,6 +97,11 @@ let router = new Router({
       path: '/signup',
       name: 'SignUp',
       component: SignUp
+    },
+    {
+      path: '/forgot-password',
+      name: 'ForgotPassword',
+      component: ForgotPassword
     }
   ]
 })

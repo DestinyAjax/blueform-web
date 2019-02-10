@@ -62,10 +62,10 @@
                 <div class="b-dropdown-menu d-none d-md-block">
                   <div class="row">
                     <div class="col-md-8" style="border-right: 1px dotted grey;">
-                      <h5><router-link to="/blog">Blog</router-link></h5>
+                      <h5><router-link to="http:://blueformblog.wordpress.com">Blog</router-link></h5>
                       <p>Original lessons about making the internet work for your business</p>
                       <h5><router-link to="/guide">Guide</router-link></h5>
-                      <p>Big ideas in data collection, explained in simple English</p>
+                      <p>Coming soon...</p>
                     </div>
                     <div class="col-md-4 side">
                       <span>ABOUT US</span>

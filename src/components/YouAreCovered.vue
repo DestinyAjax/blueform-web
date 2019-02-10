@@ -9,7 +9,7 @@
                 <p><img src="../assets/images/icon-01.png" /></p>
                 <h2>Blueform for <br/>individuals</h2>
                 <p>We help individuals conduct surveys and conduct data collection exercise anywhere in Africa with or without the internet.</p>
-                <h6><router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link></h6>
+                <h6><router-link to="/for-individuals"><i class="fas fa-check-circle"></i> Learn More</router-link></h6>
               </div>
             </div>
             <div class="col-md-4 col-xs-12 col-sm-12">
@@ -18,7 +18,7 @@
                 <h2>Blueform for <br/>Non-profits</h2>
                 <p>We make data collection, monitoring and evaluation easy and less expensive <br/>for non-profits</p><br/>
                 <h6>
-                  <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
+                  <router-link to="/for-non-profit"><i class="fas fa-check-circle"></i> Learn More</router-link>
                 </h6>
               </div>
             </div>
@@ -28,7 +28,7 @@
                 <h2>Blueform for <br/>Businesses</h2>
                 <p>We make data collection, monitoring and evaluation easy and less expensive for businesses of all sizes.</p><br/>
                 <h6>
-                  <router-link to="/"><i class="fas fa-check-circle"></i> Learn More</router-link>
+                  <router-link to="/for-businesses"><i class="fas fa-check-circle"></i> Learn More</router-link>
                 </h6>
               </div>
             </div>

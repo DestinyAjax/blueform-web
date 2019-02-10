@@ -52,7 +52,7 @@
                 <p>Founder</p>
               </div>
               <div class="col-md-4 col-xs-12 col-sm-12">
-                <img src="../assets/images/oby.jpg" alt="oby-azubuike" class="rounded-circle" />
+                <img src="../assets/images/oby.jpg" alt="oby-azubuike" style="height: 200px" class="rounded-circle" />
                 <h6>Oby Azubuike</h6>
                 <p>Data Analysis & Learning</p>
               </div>

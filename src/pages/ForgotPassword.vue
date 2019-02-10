@@ -4,19 +4,15 @@
 			<div class="col-md-4 form text-center">
 				<div class="form-content">
 					<p><router-link to="/"><img src="../assets/images/blueform-logo.png" /></router-link></p>
-					<h2>Log In To Blueform</h2>
+					<h2>Forgot your password?</h2>
 					<div class="form-group">
 						<input class="form-control" name="email" type="email" placeholder="Email" />
 					</div>
 					<div class="form-group">
-						<input class="form-control" v-model="password" :type="passwordFieldType" placeholder="Password" />
-						<span toggle="#password-field" @click="switchVisibility" class="fas fa-eye field-icon toggle-password" title="Show password"></span>
-					</div>
-					<div class="form-group">
-						<button type="submit" class="btn btn-primary form-control">Log In</button>
+						<button type="submit" class="btn btn-primary form-control">Send me reset password instructions</button>
 					</div>
 					<p>Need a Blueform account? <router-link to="/signup">Create a Blueform account</router-link></p>
-					<p><router-link to="/forgot-password">Forgot Password?</router-link></p>
+					<p>Already have a Blueform account? <router-link to="/signin">Sign In</router-link></p>
 				</div>
 			</div>
 			<div class="col-md-8 background">
@@ -30,18 +26,7 @@
 
 <script>
 export default {
-  name: "SignIn",
-  data() {
-	return {
-	  	password: '',
-  		passwordFieldType: 'password'
-	}
-  },
-  methods: {
-  	switchVisibility: function() {
-  		this.passwordFieldType = this.passwordFieldType === 'password' ? 'text' : 'password';
-  	}
-  }
+  name: "ForgotPassword",
 };
 </script>
 
@@ -53,7 +38,7 @@ export default {
 		background-size: cover;
 		background-attachement: fixed;
 		background-repeat: no-repeat;
-		height: 99vh;
+		height: 100vh;
 	}
 
 	.field-icon {

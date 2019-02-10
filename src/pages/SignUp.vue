@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-4 form">
 				<div class="form-content">
-					<p class="text-center"><router-link to="/"><img src="../assets/images/blueform-logo.png" /></router-link></p>
+					<p class="text-center"><router-link to="/"><img style="width: 150px;" src="../assets/images/blueform-logo.png" /></router-link></p>
 					<h2 class="text-center">You are in great company</h2>
 					<p class="text-center">Enter your credentials to get started with Blueform completely free</p>
 					<div class="form-group">
@@ -60,18 +60,14 @@ export default {
 	
 	.signup .background {
 		background: linear-gradient(90deg, #3C94EE 49%, #1558E5 104.42%);
+		background-image: url(../assets/images/signin-background.png);
 		height: 100vh;
 		overflow: hidden;
 		background-size: cover;
 		background-attachement: fixed;
 		background-repeat: no-repeat;
-		padding: 100px;
-	}
-
-	.signup .background .inner {
-		background-color: white;
-		border-radius: 10px;
-		padding: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	.signup .background .overlay h6 {
@@ -97,8 +93,9 @@ export default {
 		font-size: 13px;
 	}
 
-	.signup img {
+	.signup .overlay img {
 		width: 150px;
+		height: 200px;
 	}
 
 	.signup .form .form-content input {
@@ -117,24 +114,37 @@ export default {
 	}
 
 	@media screen and (min-width: 601px) {
+		.signup .background .inner {
+			background-color: white;
+			border-radius: 10px;
+			padding: 50px;
+			margin-top: 80px;
+		}
+
 	  	.signup .background .overlay {
 			position: absolute;
 			width: 406px;
 			height: 406px;
 			left: 30%;
-			top: 380px;
+			top: 340px;
 			text-align: center;
 			color: white;
 		}
 	}
 
 	@media screen and (max-width: 600px) {
+		.signup .background .inner {
+			background-color: white;
+			border-radius: 10px;
+			padding: 50px;
+		}
+
 	  	.signup .background .overlay {
 			position: absolute;
 			width: 406px;
 			height: 406px;
 			left: 10%;
-			top: 480px;
+			top: 300px;
 			text-align: center;
 			color: white;
 		}
