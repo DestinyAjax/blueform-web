@@ -24,7 +24,7 @@
                   <table class="table borderless">
                     <tr>
                       <td><img src="../assets/images/tic-logo.png"/></td>
-                      <td><img src="../assets/images/boldx-logo.png" style="width: 350px;"/></td>
+                      <td><img src="../assets/images/boldx-logo.png" style="width: 300px;"/></td>
                       <td><img src="../assets/images/identity-logo.png" /></td>
                       <td></td>
                     </tr>

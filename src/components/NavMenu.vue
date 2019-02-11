@@ -12,7 +12,7 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Why Bluform
+                Why Blueform
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <div class="d-block d-md-none mobile-nav">
@@ -51,7 +51,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <div class="d-block d-md-none mobile-nav">
                   <h5><router-link to="/blog">Blog</router-link></h5>
-                  <h5><router-link to="/guide">Guide</router-link></h5><br/>
+                  <h5><router-link to="/">Guide</router-link></h5><br/>
                   <span>ABOUT US</span>
                   <h5><router-link to="/about">Company</router-link></h5>
                   <h5><router-link to="/careers">Careers</router-link></h5>
@@ -62,9 +62,9 @@
                 <div class="b-dropdown-menu d-none d-md-block">
                   <div class="row">
                     <div class="col-md-8" style="border-right: 1px dotted grey;">
-                      <h5><router-link to="http:://blueformblog.wordpress.com">Blog</router-link></h5>
+                      <h5><router-link to="/blog">Blog</router-link></h5>
                       <p>Original lessons about making the internet work for your business</p>
-                      <h5><router-link to="/guide">Guide</router-link></h5>
+                      <h5><router-link to="/">Guide</router-link></h5>
                       <p>Coming soon...</p>
                     </div>
                     <div class="col-md-4 side">
@@ -121,6 +121,10 @@ export default {
   font-weight: 1000;
   font-size: 14px;
   letter-spacing: -0.01em;
+}
+
+#nav .navbar-brand img {
+  padding-top: 3px;
 }
 
 #nav a {

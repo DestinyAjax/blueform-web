@@ -13,19 +13,20 @@
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Developers</h3><br/>
             		<p>
-                  <router-link to="/developers">Status page</router-link>
+                  <router-link to="/">Status page</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Pricing</h3><br/>
             		<p>
-                  <router-link to="/pricing-monthly">Nigeria</router-link>
+                  <router-link to="/pricing-monthly">Monthly</router-link><br/>
+                  <router-link to="/pricing-yearly">Yearly</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
       				<h3>Learn</h3><br/>
             		<p><router-link to="/blog">Blog</router-link><br/>
-                  <router-link to="/guides">Guides</router-link>
+                  <router-link to="/">Guides</router-link>
                 </p>
       			</div>
       			<div class="col-md-2 col-xs-12 col-sm-12">
@@ -55,11 +56,11 @@
       				<p>Workstation Maryland Mall, <br/>Maryland, <br/>Lagos.</p>
       			</div>
       			<div class="col-md-6 col-xs-12 col-sm-12 social">
-              <router-link to="/"><span><i class="fab fa-twitter"></i></span></router-link>
-              <router-link to="/"><span><i class="fab fa-facebook"></i></span></router-link>
-              <router-link to="/"><span><i class="fab fa-instagram"></i></span></router-link>
-              <router-link to="/"><span><i class="fab fa-linkedin-in"></i></span></router-link>
-              <router-link to="/"><span><i class="fab fa-youtube"></i></span></router-link>
+              <router-link to="/twitter" class="twitter"><span><i class="fab fa-twitter"></i></span></router-link>
+              <router-link to="/facebook" class="facebook"><span><i class="fab fa-facebook"></i></span></router-link>
+              <router-link to="/instagram" class="instagram"><span><i class="fab fa-instagram"></i></span></router-link>
+              <router-link to="/linkedin" class="linkedin"><span><i class="fab fa-linkedin-in"></i></span></router-link>
+              <router-link to="/youtube" class="youtube"><span><i class="fab fa-youtube"></i></span></router-link>
             </div>
       		</div>
       	</div>
@@ -99,7 +100,7 @@ export default {
 }
 
 #footer .social span {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   color: #6F7E83;
   display: inline-block;

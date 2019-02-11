@@ -27,7 +27,6 @@
 					</div>
 					<div class="form-group">
 	             		<label><input type="checkbox"/> I agree to Blueform’s Terms of Service & Privacy Policy </label>
-	             		<label><input type="checkbox" /> I’d like to get useful tips, inspiration and offers via email (you can unsubscribe at any time). </label>
 	             	</div>
 				</div>
 			</div>
@@ -38,11 +37,6 @@
 						<p>Blueform has made data collection simple and straightforward. By leveraging both online and offline technologies we are making data collection accessible to everyone.</p>
 					</div>
 					<div class="col-md-2"></div>
-				</div>
-				<div class="overlay">
-					<img src="../assets/images/oby.jpg" alt="oby-azubuike" class="rounded-circle" />
-	                <h6>Oby Azubuike</h6>
-	                <p>Data Analysis & Learning</p>
 				</div>
 			</div>
 		</div>
@@ -85,8 +79,8 @@ export default {
 		line-height: normal;
 	}
 
-	.signup .form {
-		padding: 55px;
+	.signup .form-content {
+		padding: 50px;
 	}
 
 	.signup .form label {

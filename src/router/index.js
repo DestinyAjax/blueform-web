@@ -102,6 +102,42 @@ let router = new Router({
       path: '/forgot-password',
       name: 'ForgotPassword',
       component: ForgotPassword
+    },
+    {
+      path: '/blog',
+      beforeEnter() {
+        window.location.href = "http://blueformblog.wordpress.com"
+      }
+    },
+    {
+      path: '/twitter',
+      beforeEnter() {
+        window.location.href = "https://twitter.com/myblueform"
+      }
+    },
+    {
+      path: '/facebook',
+      beforeEnter() {
+        window.location.href = "https://facebook.com/myblueform"
+      }
+    },
+    {
+      path: '/instagram',
+      beforeEnter() {
+        window.location.href = "https://instagram.com/myblueform"
+      }
+    },
+    {
+      path: '/youtube',
+      beforeEnter() {
+        window.location.href = "https://youtube.com/myblueform"
+      }
+    },
+    {
+      path: '/linkedin',
+      beforeEnter() {
+        window.location.href = "https://linkedin.com/myblueform"
+      }
     }
   ]
 })
